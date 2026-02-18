@@ -11,40 +11,104 @@
     <div id="chapterSelect" class="container">
         <header>
             <h1>📚 GEGA1004</h1>
-            <p class="subtitle">Global History of Medicine</p>
+            <p class="subtitle">Global History of Medicine - 医学史全球概览</p>
         </header>
 
-        <div class="chapter-grid">
-            <div class="chapter-card" onclick="startQuiz('week1')">
-                <h3>W1</h3>
-                <p>Introduction & Prehistoric Medicine</p>
-                <span class="question-count">15 题</span>
+        <div id="chapterGrid" class="chapter-grid">
+            <!-- 章节卡片将由 JavaScript 动态生成 -->
+        </div>
+    </div>
+
+    <!-- 加载动画 -->
+    <div id="loading" class="container hidden">
+        <div class="loading">
+            <div class="spinner"></div>
+            <div class="loading-text">Loading questions...</div>
+        </div>
+    </div>
+
+    <!-- 测验界面 -->
+    <div id="quizContainer" class="container hidden">
+        <header>
+            <h1>📚 GEGA1004</h1>
+            <p class="subtitle">Global History of Medicine</p>
+            <div class="timer" id="timer">⏱️ 剩余时间: 20:00</div>
+        </header>
+
+        <div class="quiz-container">
+            <div class="question-header">
+                <div class="question-number">第 <span id="currentQuestion">1</span>/<span id="totalQuestions">15</span> 题</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                </div>
             </div>
-            <div class="chapter-card" onclick="startQuiz('week2')">
-                <h3>W2</h3>
-                <p>Ancient Egypt & Mesopotamia</p>
-                <span class="question-count">12 题</span>
-            </div>
-            <div class="chapter-card" onclick="startQuiz('week3')">
-                <h3>W3</h3>
-                <p>India & Middle East</p>
-                <span class="question-count">10 题</span>
-            </div>
-            <!-- 更多章节... -->
-            
-            <div class="chapter-card all-chapters" onclick="startQuiz('all')">
-                <h3>🎯</h3>
-                <p>全部章节</p>
-                <span class="question-count">100+ 题</span>
+
+            <div class="question-text" id="questionText"></div>
+
+            <div class="options-container" id="optionsContainer"></div>
+
+            <div class="controls">
+                <button class="btn-prev" id="prevBtn" disabled>❮ 上一题</button>
+                <button class="btn-next" id="nextBtn">下一题 ❯</button>
+                <button class="btn-submit" id="submitBtn">提交</button>
             </div>
         </div>
     </div>
 
-    <!-- 测验界面（隐藏） -->
-    <div id="quizContainer" class="container hidden">
-        <!-- 测验内容... -->
+    <!-- 结果界面 -->
+    <div id="resultsContainer" class="container hidden">
+        <header>
+            <h1>📚 GEGA1004</h1>
+            <p class="subtitle">Global History of Medicine</p>
+        </header>
+
+        <div class="results-container">
+            <div class="results-header">
+                <h2>📊 测验结果</h2>
+                <div class="score-display" id="scoreDisplay">0/15</div>
+                <div class="score-percentage" id="scorePercentage">0%</div>
+            </div>
+
+            <div class="result-summary">
+                <div class="result-item">
+                    <div class="result-number result-correct" id="correctCount">0</div>
+                    <div class="result-label">正确</div>
+                </div>
+                <div class="result-item">
+                    <div class="result-number result-incorrect" id="incorrectCount">0</div>
+                    <div class="result-label">错误</div>
+                </div>
+                <div class="result-item">
+                    <div class="result-number" id="totalCount">15</div>
+                    <div class="result-label">总计</div>
+                </div>
+            </div>
+
+            <div id="questionsResults"></div>
+
+            <div class="back-to-quiz">
+                <button class="btn-back" id="backBtn">↩ 返回章节选择</button>
+                <button class="btn-reset" id="resetBtn">🔄 重新测验</button>
+            </div>
+        </div>
     </div>
 
     <script src="quiz.js"></script>
+    <script>
+        // 页面加载时初始化
+        window.onload = function() {
+            loadChaptersConfig();
+            
+            // 绑定按钮事件
+            document.getElementById('backBtn').addEventListener('click', function() {
+                document.getElementById('resultsContainer').classList.add('hidden');
+                document.getElementById('chapterSelect').classList.remove('hidden');
+            });
+            
+            document.getElementById('resetBtn').addEventListener('click', function() {
+                startQuiz(currentChapterId);
+            });
+        };
+    </script>
 </body>
 </html>

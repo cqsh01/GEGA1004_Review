@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📝 选择题文本转 JSON 工具</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        h1 { color: #667eea; font-size: 2em; }
+        .subtitle { color: #666; margin-top: 10px; }
+        
+        .converter-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .panel {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .panel-title {
+            font-size: 1.3em;
+            color: #667eea;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        
+        textarea {
+            width: 100%;
+            height: 400px;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 1em;
+            font-family: 'Courier New', monospace;
+            resize: vertical;
+            margin-bottom: 15px;
+        }
+        
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+        }
+        
+        button {
+            padding: 12px 30px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        button:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        .example {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 15px;
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+        
+        .example-title {
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .btn-copy {
+            background: #4caf50;
+        }
+        
+        .btn-copy:hover {
+            background: #45a049;
+        }
+        
+        .btn-download {
+            background: #2196f3;
+        }
+        
+        .btn-download:hover {
+            background: #1976d2;
+        }
+        
+        .status {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .status.success {
+            background: #e8f5e9;
+            color: #4caf50;
+            display: none;
+        }
+        
+        .status.error {
+            background: #ffebee;
+            color: #f44336;
+            display: none;
+        }
+        
+        @media (max-width: 768px) {
+            .converter-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 选择题文本转 JSON 工具</h1>
+            <p class="subtitle">将格式化的选择题文本转换为 JSON 格式</p>
+        </header>
+
+        <div class="converter-grid">
+            <!-- 左侧：输入面板 -->
+            <div class="panel">
+                <div class="panel-title">📥 输入文本</div>
+                <textarea id="inputText" placeholder="请输入选择题文本..."></textarea>
+                
+                <div class="example">
+                    <div class="example-title">📝 格式示例：</div>
+                    <pre>题目：被称为"医学之父"的是？
+A. Galen（盖伦）| 罗马时期著名医师，但非"医学之父"
+B. Imhotep（伊姆霍特普）| 古埃及早期医者，被神化但非西方传统所称"医学之父"
+C. Hippocrates（希波克拉底）| PDF明确标注为"The father of medicine"，古希腊医学奠基人 ✓
+D. Avicenna（阿维森纳）| 伊斯兰黄金时代医学家，《医典》作者
+解析：易混淆点：Galen 和 Avicenna 在医学史上地位极高，但"医学之父"特指 Hippocrates
+
+---
+
+题目：史前医学中用于颅骨钻孔的早期工具材质是？
+A. 青铜 | 青铜时代工具，晚于史前燧石工具
+B. 铁 | 铁器时代更晚
+C. 燧石（Flint）| PDF"medical tools"部分明确展示 Flint 用于 skull-drilling ✓
+D. 骨头 | 虽有使用，但 PDF 未强调，燧石为最古老材质
+解析：易混淆点：易误选"骨头"因联想原始，但 PDF 明确图示为 Flint</pre>
+                </div>
+            </div>
+
+            <!-- 右侧：输出面板 -->
+            <div class="panel">
+                <div class="panel-title">📤 JSON 输出</div>
+                <textarea id="outputText" readonly placeholder="JSON 格式将显示在这里..."></textarea>
+                
+                <div class="controls">
+                    <button onclick="convertText()">🔄 转换</button>
+                    <button class="btn-copy" onclick="copyJSON()">📋 复制</button>
+                    <button class="btn-download" onclick="downloadJSON()">💾 保存</button>
+                </div>
+                
+                <div class="status success" id="successStatus">
+                    ✓ 转换成功！已复制到剪贴板
+                </div>
+                
+                <div class="status error" id="errorStatus">
+                    ✗ 转换失败，请检查输入格式
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 转换文本为 JSON
+        function convertText() {
+            const input = document.getElementById('inputText').value.trim();
+            const successStatus = document.getElementById('successStatus');
+            const errorStatus = document.getElementById('errorStatus');
+            
+            // 隐藏状态消息
+            successStatus.style.display = 'none';
+            errorStatus.style.display = 'none';
+            
+            try {
+                // 按 "---" 分割多个题目
+                const questionBlocks = input.split(/^-{3,}$/m);
+                const questions = [];
+                
+                for (const block of questionBlocks) {
+                    const trimmed = block.trim();
+                    if (!trimmed) continue;
+                    
+                    const question = parseQuestionBlock(trimmed);
+                    if (question) {
+                        questions.push(question);
+                    }
+                }
+                
+                // 生成 JSON
+                const jsonOutput = {
+                    questions: questions
+                };
+                
+                const jsonString = JSON.stringify(jsonOutput, null, 2);
+                document.getElementById('outputText').value = jsonString;
+                
+                // 显示成功消息
+                successStatus.style.display = 'block';
+                setTimeout(() => {
+                    successStatus.style.display = 'none';
+                }, 3000);
+                
+            } catch (error) {
+                console.error('转换失败:', error);
+                document.getElementById('outputText').value = `转换错误: ${error.message}`;
+                errorStatus.style.display = 'block';
+            }
+        }
+        
+        // 解析单个题目块
+        function parseQuestionBlock(block) {
+            const lines = block.split('\n').map(l => l.trim()).filter(l => l);
+            
+            if (lines.length < 5) {
+                throw new Error('题目格式不完整');
+            }
+            
+            // 第一行：题目
+            let questionText = lines[0];
+            if (questionText.startsWith('题目：')) {
+                questionText = questionText.substring(3).trim();
+            }
+            
+            // 解析选项
+            const options = [];
+            let explanation = '';
+            
+            for (let i = 1; i < lines.length; i++) {
+                const line = lines[i];
+                
+                // 检查是否是"解析："行
+                if (line.startsWith('解析：')) {
+                    explanation = line.substring(3).trim();
+                    break;
+                }
+                
+                // 解析选项格式：A. 选项文本 | 解析 ✓
+                const optionMatch = line.match(/^([A-D])\.\s*(.+?)\s*\|\s*(.+?)\s*(✓)?$/);
+                
+                if (optionMatch) {
+                    const letter = optionMatch[1];
+                    const text = optionMatch[2].trim();
+                    const reason = optionMatch[3].trim();
+                    const isCorrect = optionMatch[4] === '✓';
+                    
+                    options.push({
+                        text: text,
+                        isCorrect: isCorrect,
+                        reason: reason
+                    });
+                } else {
+                    // 如果格式不匹配，尝试其他格式
+                    if (line.includes('|')) {
+                        const parts = line.split('|');
+                        const optText = parts[0].replace(/^[A-D]\.\s*/, '').trim();
+                        const optReason = parts[1].replace('✓', '').trim();
+                        const isCorrect = line.includes('✓');
+                        
+                        options.push({
+                            text: optText,
+                            isCorrect: isCorrect,
+                            reason: optReason
+                        });
+                    }
+                }
+            }
+            
+            if (options.length < 2) {
+                throw new Error('选项数量不足');
+            }
+            
+            return {
+                question: questionText,
+                options: options,
+                explanation: explanation
+            };
+        }
+        
+        // 复制 JSON 到剪贴板
+        function copyJSON() {
+            const output = document.getElementById('outputText');
+            output.select();
+            document.execCommand('copy');
+            
+            const successStatus = document.getElementById('successStatus');
+            successStatus.textContent = '✓ 已复制到剪贴板！';
+            successStatus.style.display = 'block';
+            
+            setTimeout(() => {
+                successStatus.style.display = 'none';
+            }, 2000);
+        }
+        
+        // 下载 JSON 文件
+        function downloadJSON() {
+            const output = document.getElementById('outputText').value;
+            
+            if (!output || output.includes('转换错误')) {
+                alert('请先转换文本！');
+                return;
+            }
+            
+            const blob = new Blob([output], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'questions.json';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+        
+        // 监听输入变化，自动转换
+        document.getElementById('inputText').addEventListener('input', function() {
+            if (this.value.trim().length > 10) {
+                convertText();
+            }
+        });
+    </script>
+</body>
+</html>
