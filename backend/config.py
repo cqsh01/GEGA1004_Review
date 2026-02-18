@@ -1,14 +1,16 @@
 # backend/config.py
 import os
 from pathlib import Path
+from dotenv import load_dotenv
+
+# 加载环境变量
+load_dotenv()
 
 # 项目根目录
 BASE_DIR = Path(__file__).parent.parent
 
 # API 配置
 QWEN_API_KEY = os.getenv("QWEN_API_KEY", "")
-QWEN_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
-QWEN_MODEL = "qwen-plus"  # 可选: qwen-max, qwen-turbo
 
 # 文件路径配置
 UPLOAD_FOLDER = BASE_DIR / "uploads"
@@ -28,3 +30,7 @@ ALLOWED_EXTENSIONS = {'txt', 'pdf', 'docx', 'doc'}
 DEFAULT_NUM_QUESTIONS = 15
 MAX_NUM_QUESTIONS = 50
 MIN_NUM_QUESTIONS = 5
+
+# DashScope 模型配置
+DASHSCOPE_TEXT_MODEL = "qwen-plus"  # 纯文本模型
+DASHSCOPE_VISION_MODEL = "qwen-vl-max"  # 多模态模型（支持图片）
