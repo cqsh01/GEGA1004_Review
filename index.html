@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEGA1004 医学史测验</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+
+        .timer {
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 1.2em;
+            margin-top: 15px;
+            display: inline-block;
+        }
+
+        .quiz-container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .question-number {
+            font-size: 1.2em;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .progress-bar {
+            width: 100%;
+            background: #e0e0e0;
+            border-radius: 10px;
+            height: 10px;
+            overflow: hidden;
+            margin-top: 15px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            transition: width 0.3s ease;
+        }
+
+        .question-text {
+            font-size: 1.3em;
+            color: #333;
+            margin-bottom: 25px;
+            line-height: 1.6;
+            font-weight: 500;
+        }
+
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .option {
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1.1em;
+            display: flex;
+            align-items: center;
+        }
+
+        .option:hover {
+            background: #e3f2fd;
+            border-color: #667eea;
+            transform: translateX(5px);
+        }
+
+        .option.selected {
+            background: #e3f2fd;
+            border-color: #667eea;
+            font-weight: bold;
+        }
+
+        .option.correct {
+            background: #e8f5e9;
+            border-color: #4caf50;
+        }
+
+        .option.incorrect {
+            background: #ffebee;
+            border-color: #f44336;
+        }
+
+        .option-letter {
+            display: inline-block;
+            width: 28px;
+            height: 28px;
+            background: #667eea;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 28px;
+            margin-right: 15px;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .option.selected .option-letter {
+            background: #42a5f5;
+        }
+
+        .option.correct .option-letter {
+            background: #4caf50;
+        }
+
+        .option.incorrect .option-letter {
+            background: #f44336;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        button {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            flex: 1;
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .btn-prev {
+            background: #90a4ae;
+            color: white;
+        }
+
+        .btn-prev:hover:not(:disabled) {
+            background: #78909c;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-next {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-next:hover:not(:disabled) {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-submit {
+            background: #4caf50;
+            color: white;
+        }
+
+        .btn-submit:hover:not(:disabled) {
+            background: #45a049;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-reset {
+            background: #f44336;
+            color: white;
+        }
+
+        .btn-reset:hover {
+            background: #e53935;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .results-container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            display: none;
+        }
+
+        .results-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .score-display {
+            font-size: 3em;
+            font-weight: bold;
+            color: #667eea;
+            margin: 20px 0;
+        }
+
+        .score-percentage {
+            font-size: 1.5em;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .result-summary {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin: 30px 0;
+        }
+
+        .result-item {
+            text-align: center;
+        }
+
+        .result-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .result-label {
+            font-size: 1.1em;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .result-correct {
+            color: #4caf50;
+        }
+
+        .result-incorrect {
+            color: #f44336;
+        }
+
+        .question-result {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border-left: 5px solid #667eea;
+        }
+
+        .question-result.correct {
+            border-left-color: #4caf50;
+            background: #e8f5e9;
+        }
+
+        .question-result.incorrect {
+            border-left-color: #f44336;
+            background: #ffebee;
+        }
+
+        .question-result-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .question-result-number {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 1.1em;
+        }
+
+        .question-result-status {
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        .question-result-status.correct {
+            background: #4caf50;
+            color: white;
+        }
+
+        .question-result-status.incorrect {
+            background: #f44336;
+            color: white;
+        }
+
+        .question-result-text {
+            font-weight: 500;
+            margin-bottom: 10px;
+            color: #333;
+            font-size: 1.1em;
+        }
+
+        .question-result-answer {
+            margin: 10px 0;
+            padding: 10px 15px;
+            background: white;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .question-result-correct-answer {
+            color: #4caf50;
+        }
+
+        .question-result-user-answer {
+            color: #f44336;
+        }
+
+        .explanation {
+            margin-top: 15px;
+            padding: 15px;
+            background: white;
+            border-radius: 5px;
+            border-left: 3px solid #667eea;
+        }
+
+        .explanation-title {
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 8px;
+        }
+
+        .confusion-points {
+            margin-top: 10px;
+            padding: 10px;
+            background: #fff3e0;
+            border-radius: 5px;
+            border-left: 3px solid #ff9800;
+            font-size: 0.95em;
+        }
+
+        .confusion-title {
+            font-weight: bold;
+            color: #ff9800;
+            margin-bottom: 5px;
+        }
+
+        .back-to-quiz {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .quiz-container, .results-container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .controls {
+                flex-direction: column;
+            }
+
+            button {
+                width: 100%;
+            }
+
+            .result-summary {
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 GEGA1004</h1>
+            <p class="subtitle">Global History of Medicine - 医学史全球概览</p>
+            <div class="timer" id="timer">⏱️ 剩余时间: 20:00</div>
+        </header>
+
+        <!-- 测验界面 -->
+        <div class="quiz-container" id="quizContainer">
+            <div class="question-header">
+                <div class="question-number">第 <span id="currentQuestion">1</span>/<span id="totalQuestions">15</span> 题</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div class="question-text" id="questionText"></div>
+
+            <div class="options-container" id="optionsContainer"></div>
+
+            <div class="controls">
+                <button class="btn-prev" id="prevBtn" disabled>❮ 上一题</button>
+                <button class="btn-next" id="nextBtn">下一题 ❯</button>
+                <button class="btn-submit" id="submitBtn">提交</button>
+            </div>
+        </div>
+
+        <!-- 结果界面 -->
+        <div class="results-container" id="resultsContainer">
+            <div class="results-header">
+                <h2>📊 测验结果</h2>
+                <div class="score-display" id="scoreDisplay">0/15</div>
+                <div class="score-percentage" id="scorePercentage">0%</div>
+            </div>
+
+            <div class="result-summary">
+                <div class="result-item">
+                    <div class="result-number result-correct" id="correctCount">0</div>
+                    <div class="result-label">正确</div>
+                </div>
+                <div class="result-item">
+                    <div class="result-number result-incorrect" id="incorrectCount">0</div>
+                    <div class="result-label">错误</div>
+                </div>
+                <div class="result-item">
+                    <div class="result-number" id="totalCount">15</div>
+                    <div class="result-label">总计</div>
+                </div>
+            </div>
+
+            <div id="questionsResults"></div>
+
+            <div class="back-to-quiz">
+                <button class="btn-reset" id="resetBtn">🔄 重新测验</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ============================================
+        // 题目数据
+        // ============================================
+        const quizData = [
+            {
+                question: "被称为'医学之父'（The father of medicine）的是？",
+                options: [
+                    { text: "Galen（盖伦）", isCorrect: false, reason: "罗马时期著名医师，但非'医学之父'" },
+                    { text: "Imhotep（伊姆霍特普）", isCorrect: false, reason: "古埃及早期医者，被神化但非西方传统所称'医学之父'" },
+                    { text: "Hippocrates（希波克拉底）", isCorrect: true, reason: "PDF明确标注为'The father of medicine'，古希腊医学奠基人" },
+                    { text: "Avicenna（阿维森纳）", isCorrect: false, reason: "伊斯兰黄金时代医学家，《医典》作者" }
+                ],
+                explanation: "易混淆点：Galen 和 Avicenna 在医学史上地位极高，但'医学之父'特指 Hippocrates；Imhotep 是埃及早期医者，易因'古老'而误选。"
+            },
+            {
+                question: "Alexander Fleming 的主要贡献是？",
+                options: [
+                    { text: "发现血液循环", isCorrect: false, reason: "William Harvey（1628年）" },
+                    { text: "提出细菌理论", isCorrect: false, reason: "Louis Pasteur" },
+                    { text: "发现青霉素（第一种抗生素）", isCorrect: true, reason: "1928年偶然发现霉菌抑制葡萄球菌" },
+                    { text: "发明'飞行'救护车", isCorrect: false, reason: "Baron Dominique Jean Larrey" }
+                ],
+                explanation: "易混淆点：Fleming 与 Pasteur 均与微生物相关，但 Pasteur 提出理论，Fleming 发现具体药物；'serendipity（偶然发现）'是关键词。"
+            },
+            {
+                question: "William Harvey 的著名发现是？",
+                options: [
+                    { text: "细菌致病理论", isCorrect: false, reason: "Pasteur" },
+                    { text: "血液循环", isCorrect: true, reason: "PDF注明1628年通过严谨观察（rigorous observations）发现" },
+                    { text: "颅骨钻孔术", isCorrect: false, reason: "史前/古罗马实践" },
+                    { text: "青霉素", isCorrect: false, reason: "Fleming" }
+                ],
+                explanation: "易混淆点：Harvey 与 Vesalius 均属解剖学革命人物，但 Vesalius 重在人体结构描绘，Harvey 重在循环功能。"
+            },
+            {
+                question: "'细菌理论'（Germ Theory）的主要提出者是？",
+                options: [
+                    { text: "Alexander Fleming", isCorrect: false, reason: "发现青霉素" },
+                    { text: "Louis Pasteur", isCorrect: true, reason: "PDF在'Scientific journey'中标注其提出细菌致病理论" },
+                    { text: "Hippocrates", isCorrect: false, reason: "体液学说" },
+                    { text: "Galen", isCorrect: false, reason: "继承并发展体液学说" }
+                ],
+                explanation: "易混淆点：PDF拼写为'Louise Pasteur'（笔误），正确应为 Louis Pasteur，注意识别。"
+            },
+            {
+                question: "史前医学中用于颅骨钻孔（trepanning）的早期工具材质是？",
+                options: [
+                    { text: "青铜", isCorrect: false, reason: "青铜时代工具，晚于史前燧石工具" },
+                    { text: "铁", isCorrect: false, reason: "铁器时代更晚" },
+                    { text: "燧石（Flint）", isCorrect: true, reason: "PDF'medical tools'部分明确展示 Flint 用于 skull-drilling" },
+                    { text: "骨头", isCorrect: false, reason: "虽有使用，但 PDF 未强调，燧石为最古老材质" }
+                ],
+                explanation: "易混淆点：易误选'骨头'因联想原始，但 PDF 明确图示为 Flint。"
+            },
+            {
+                question: "最古老的已知外科创伤治疗文献是？",
+                options: [
+                    { text: "《黄帝内经》", isCorrect: false, reason: "中医经典，非外科创伤专著" },
+                    { text: "Smith Papyrus", isCorrect: true, reason: "PDF注明'oldest known surgical treatise on trauma'，3600年前埃及" },
+                    { text: "Charaka Samhita", isCorrect: false, reason: "印度阿育吠陀医学典籍" },
+                    { text: "Canon of Medicine", isCorrect: false, reason: "Avicenna 著作，中世纪伊斯兰医学集大成" }
+                ],
+                explanation: "易混淆点：Smith Papyrus 与 Ebers Papyrus 均为埃及医学纸草，但 Smith 专攻外科创伤，Ebers 偏重内科。"
+            },
+            {
+                question: "第一次世界大战中哪种化学武器意外促成化疗发展？",
+                options: [
+                    { text: "氯气", isCorrect: false, reason: "早期毒气，主要致窒息" },
+                    { text: "光气", isCorrect: false, reason: "肺损伤为主" },
+                    { text: "芥子气（Mustard gas）", isCorrect: true, reason: "PDF指出其'turned out to have beneficial effects when fighting cancer'" },
+                    { text: "路易氏剂", isCorrect: false, reason: "砷化物毒剂，未直接关联癌症治疗" }
+                ],
+                explanation: "易混淆点：多种毒气均用于一战，但仅芥子气因抑制细胞分裂特性被后续开发为化疗药物（如氮芥）。"
+            },
+            {
+                question: "细菌作为感染传播者的概念最早出现于？",
+                options: [
+                    { text: "古希腊时期", isCorrect: false, reason: "体液学说主导" },
+                    { text: "文艺复兴时期", isCorrect: false, reason: "解剖学兴起，但未建立微生物致病观" },
+                    { text: "18世纪", isCorrect: false, reason: "显微镜初现，但理论未成形" },
+                    { text: "19世纪", isCorrect: true, reason: "PDF原文：'The notion of germs as transmitters of infection has existed only since the 19th century'" }
+                ],
+                explanation: "易混淆点：易误认为显微镜发明（17世纪）即有细菌理论，实际理论确立在19世纪（Pasteur/Koch）。"
+            },
+            {
+                question: "Baron Dominique Jean Larrey 的主要贡献是？",
+                options: [
+                    { text: "发现青霉素", isCorrect: false, reason: "Fleming" },
+                    { text: "发明'飞行'救护车（flying ambulances）", isCorrect: true, reason: "PDF称其为'first modern military surgeon'" },
+                    { text: "提出细菌理论", isCorrect: false, reason: "Pasteur" },
+                    { text: "颅骨钻孔术标准化", isCorrect: false, reason: "古罗马医师" }
+                ],
+                explanation: "易混淆点：Larrey 与 Ambroise Paré 均为军事外科先驱，但 Paré 专注截肢与结扎，Larrey 专注战场急救运输系统。"
+            },
+            {
+                question: "Ambroise Paré 被称为？",
+                options: [
+                    { text: "医学之父", isCorrect: false, reason: "Hippocrates" },
+                    { text: "现代外科之父（Father of Modern Surgery）", isCorrect: true, reason: "PDF标注Ambroise Paré (1509–1590) 为'Father of Modern Surgery'" },
+                    { text: "细菌理论之父", isCorrect: false, reason: "Pasteur" },
+                    { text: "血液循环发现者", isCorrect: false, reason: "Harvey" }
+                ],
+                explanation: "易混淆点：注意区分各'之父'称号，Paré 因在外科手术（特别是截肢和结扎技术）上的贡献被称为现代外科之父。"
+            },
+            {
+                question: "截至2023年11月22日，WHO报告的全球COVID-19累计死亡人数约为？",
+                options: [
+                    { text: "300万", isCorrect: false, reason: "低估" },
+                    { text: "500万", isCorrect: false, reason: "仍低于实际" },
+                    { text: "698万（6,981,263）", isCorrect: true, reason: "PDF明确数据" },
+                    { text: "1000万", isCorrect: false, reason: "高估" }
+                ],
+                explanation: "易混淆点：媒体常报道'超1000万'，但PDF采用WHO官方截至2023年11月数据，需以材料为准。"
+            },
+            {
+                question: "本课程期中考试的题型与题量是？",
+                options: [
+                    { text: "30道简答题", isCorrect: false, reason: "无简答" },
+                    { text: "40道选择题（40 MCQs）", isCorrect: true, reason: "PDF Assessment methods 明确标注" },
+                    { text: "50道判断题", isCorrect: false, reason: "无判断题" },
+                    { text: "20道论述题", isCorrect: false, reason: "无论述题，用户已说明仅考选择题" }
+                ],
+                explanation: "易混淆点：易混淆期中与期末题量，但PDF显示两者均为40 MCQs。"
+            },
+            {
+                question: "古代医学实践中，早期医者常被称为？",
+                options: [
+                    { text: "科学家", isCorrect: false, reason: "现代称谓" },
+                    { text: "巫师/医者（Sorcerers/Medicine men）", isCorrect: true, reason: "PDF'A glance at the history...'部分指出古代医者即sorcerers，为spiritual intermediaries" },
+                    { text: "教授", isCorrect: false, reason: "现代称谓" },
+                    { text: "工程师", isCorrect: false, reason: "无关" }
+                ],
+                explanation: "易混淆点：现代人容易用当代视角理解古代职业，但古代医者兼具宗教和医疗双重角色。"
+            },
+            {
+                question: "以下哪项不属于PDF列举的'现代医学基本改进'（Basic Improvements）？",
+                options: [
+                    { text: "更好的营养", isCorrect: false, reason: "PDF列出" },
+                    { text: "改善公共卫生和卫生条件", isCorrect: false, reason: "PDF列出" },
+                    { text: "量子计算机辅助诊断", isCorrect: true, reason: "未来技术，PDF未提及" },
+                    { text: "识别致癌物和污染物", isCorrect: false, reason: "PDF列出'carcinogens, pollutants'" }
+                ],
+                explanation: "易混淆点：C选项为现代高科技，看似合理，但PDF强调的是20世纪已实现的基础性改进，非前沿技术。"
+            },
+            {
+                question: "Smith Papyrus 的年代大约是？",
+                options: [
+                    { text: "1000年前", isCorrect: false, reason: "太晚" },
+                    { text: "2000年前", isCorrect: false, reason: "罗马时期" },
+                    { text: "3600年前", isCorrect: true, reason: "PDF注明3600-year-old, Egypt" },
+                    { text: "5000年前", isCorrect: false, reason: "太早" }
+                ],
+                explanation: "易混淆点：容易与其他古代文献年代混淆，需记住Smith Papyrus是约公元前1600年的埃及文献。"
+            }
+        ];
+
+        // ============================================
+        // 全局变量
+        // ============================================
+        let currentQuizData = [];
+        let currentQuestionIndex = 0;
+        let userAnswers = [];
+        let startTime;
+        let timerInterval;
+        let timeRemaining = 20 * 60; // 20分钟
+
+        // ============================================
+        // 工具函数
+        // ============================================
+        function shuffleArray(array) {
+            const newArray = [...array];
+            for (let i = newArray.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+            }
+            return newArray;
+        }
+
+        function startTimer() {
+            startTime = Date.now();
+            updateTimerDisplay();
+            
+            timerInterval = setInterval(() => {
+                timeRemaining--;
+                updateTimerDisplay();
+                
+                if (timeRemaining <= 0) {
+                    clearInterval(timerInterval);
+                    submitQuiz();
+                }
+            }, 1000);
+        }
+
+        function updateTimerDisplay() {
+            const minutes = Math.floor(timeRemaining / 60);
+            const seconds = timeRemaining % 60;
+            document.getElementById('timer').textContent = 
+                `⏱️ 剩余时间: ${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        }
+
+        // ============================================
+        // 测验逻辑
+        // ============================================
+        function initQuiz() {
+            // 随机化题目顺序
+            currentQuizData = shuffleArray(quizData);
+            currentQuestionIndex = 0;
+            userAnswers = new Array(currentQuizData.length).fill(null);
+            timeRemaining = 20 * 60;
+            
+            // 显示第一题
+            showQuestion(currentQuestionIndex);
+            
+            // 启动计时器
+            if (timerInterval) clearInterval(timerInterval);
+            startTimer();
+            
+            // 显示测验界面，隐藏结果界面
+            document.getElementById('quizContainer').style.display = 'block';
+            document.getElementById('resultsContainer').style.display = 'none';
+        }
+
+        function showQuestion(index) {
+            const question = currentQuizData[index];
+            
+            // 随机化选项顺序
+            const shuffledOptions = shuffleArray(question.options);
+            question.shuffledOptions = shuffledOptions;
+            
+            // 更新题目文本
+            document.getElementById('questionText').textContent = question.question;
+            
+            // 更新选项
+            const optionsContainer = document.getElementById('optionsContainer');
+            optionsContainer.innerHTML = '';
+            
+            shuffledOptions.forEach((option, optIndex) => {
+                const optionDiv = document.createElement('div');
+                optionDiv.className = 'option';
+                if (userAnswers[index] === optIndex) {
+                    optionDiv.classList.add('selected');
+                }
+                
+                optionDiv.innerHTML = `
+                    <span class="option-letter">${String.fromCharCode(65 + optIndex)}</span>
+                    ${option.text}
+                `;
+                
+                optionDiv.addEventListener('click', () => {
+                    // 取消所有选项的选中状态
+                    document.querySelectorAll('.option').forEach(opt => {
+                        opt.classList.remove('selected');
+                    });
+                    
+                    // 选中当前选项
+                    optionDiv.classList.add('selected');
+                    userAnswers[index] = optIndex;
+                });
+                
+                optionsContainer.appendChild(optionDiv);
+            });
+            
+            // 更新进度
+            document.getElementById('currentQuestion').textContent = index + 1;
+            document.getElementById('totalQuestions').textContent = currentQuizData.length;
+            document.getElementById('progressFill').style.width = 
+                `${((index + 1) / currentQuizData.length) * 100}%`;
+            
+            // 更新按钮状态
+            document.getElementById('prevBtn').disabled = (index === 0);
+            document.getElementById('nextBtn').textContent = 
+                (index === currentQuizData.length - 1) ? '查看结果' : '下一题 ❯';
+        }
+
+        function nextQuestion() {
+            if (currentQuestionIndex < currentQuizData.length - 1) {
+                currentQuestionIndex++;
+                showQuestion(currentQuestionIndex);
+            } else {
+                submitQuiz();
+            }
+        }
+
+        function prevQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                showQuestion(currentQuestionIndex);
+            }
+        }
+
+        function submitQuiz() {
+            clearInterval(timerInterval);
+            
+            // 计算分数
+            let correctCount = 0;
+            let incorrectCount = 0;
+            
+            currentQuizData.forEach((question, index) => {
+                const userAnswerIndex = userAnswers[index];
+                if (userAnswerIndex !== null) {
+                    const selectedOption = question.shuffledOptions[userAnswerIndex];
+                    if (selectedOption.isCorrect) {
+                        correctCount++;
+                    } else {
+                        incorrectCount++;
+                    }
+                } else {
+                    incorrectCount++; // 未回答算错误
+                }
+            });
+            
+            // 显示结果
+            showResults(correctCount, incorrectCount);
+        }
+
+        function showResults(correctCount, incorrectCount) {
+            const total = currentQuizData.length;
+            const percentage = Math.round((correctCount / total) * 100);
+            
+            // 更新统计
+            document.getElementById('scoreDisplay').textContent = `${correctCount}/${total}`;
+            document.getElementById('scorePercentage').textContent = `${percentage}%`;
+            document.getElementById('correctCount').textContent = correctCount;
+            document.getElementById('incorrectCount').textContent = incorrectCount;
+            document.getElementById('totalCount').textContent = total;
+            
+            // 生成题目结果
+            const questionsResults = document.getElementById('questionsResults');
+            questionsResults.innerHTML = '';
+            
+            currentQuizData.forEach((question, index) => {
+                const userAnswerIndex = userAnswers[index];
+                const isAnswered = userAnswerIndex !== null;
+                const selectedOption = isAnswered ? question.shuffledOptions[userAnswerIndex] : null;
+                const isCorrect = isAnswered && selectedOption.isCorrect;
+                
+                // 找到正确答案
+                const correctOptionIndex = question.shuffledOptions.findIndex(opt => opt.isCorrect);
+                const correctOption = question.shuffledOptions[correctOptionIndex];
+                
+                const questionResultDiv = document.createElement('div');
+                questionResultDiv.className = `question-result ${isCorrect ? 'correct' : 'incorrect'}`;
+                
+                questionResultDiv.innerHTML = `
+                    <div class="question-result-header">
+                        <div class="question-result-number">第 ${index + 1} 题</div>
+                        <div class="question-result-status ${isCorrect ? 'correct' : 'incorrect'}">
+                            ${isCorrect ? '✓ 正确' : '✗ 错误'}
+                        </div>
+                    </div>
+                    <div class="question-result-text">${question.question}</div>
+                    ${isAnswered ? `
+                        <div class="question-result-answer">
+                            ${isCorrect ? '<span class="question-result-correct-answer">✓ 您的答案正确</span>' : 
+                            `<span class="question-result-user-answer">✗ 您的选择: ${selectedOption.text}</span><br>
+                             <span class="question-result-correct-answer">✓ 正确答案: ${correctOption.text}</span>`}
+                        </div>
+                    ` : `
+                        <div class="question-result-answer">
+                            <span class="question-result-user-answer">✗ 未作答</span><br>
+                            <span class="question-result-correct-answer">✓ 正确答案: ${correctOption.text}</span>
+                        </div>
+                    `}
+                    <div class="explanation">
+                        <div class="explanation-title">解析：</div>
+                        ${correctOption.reason || ''}
+                    </div>
+                    <div class="confusion-points">
+                        <div class="confusion-title">💡 易混淆点：</div>
+                        ${question.explanation || '无'}
+                    </div>
+                `;
+                
+                questionsResults.appendChild(questionResultDiv);
+            });
+            
+            // 切换界面
+            document.getElementById('quizContainer').style.display = 'none';
+            document.getElementById('resultsContainer').style.display = 'block';
+            
+            // 滚动到顶部
+            window.scrollTo(0, 0);
+        }
+
+        // ============================================
+        // 事件监听
+        // ============================================
+        document.getElementById('prevBtn').addEventListener('click', prevQuestion);
+        document.getElementById('nextBtn').addEventListener('click', nextQuestion);
+        document.getElementById('submitBtn').addEventListener('click', submitQuiz);
+        document.getElementById('resetBtn').addEventListener('click', initQuiz);
+
+        // ============================================
+        // 初始化
+        // ============================================
+        window.onload = initQuiz;
+    </script>
+</body>
+</html>

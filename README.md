@@ -1,2 +1,22 @@
 # GEGA1004_Review
-code of multiple choices generation
+# 📚 GEGA1004 医学史测验系统
+
+一个基于 HTML + CSS + JavaScript 的在线测验系统，专为 **GEGA1004 - Global History of Medicine** 课程设计。
+
+## ✨ 功能特性
+
+- ✅ **题目随机化**：每次刷新题目顺序不同
+- ✅ **选项随机化**：每道题的选项顺序随机排列
+- ✅ **计时器**：20分钟倒计时
+- ✅ **实时进度**：显示当前题目和完成进度
+- ✅ **提交后解析**：显示正确/错误答案
+- ✅ **详细解析**：每道题包含答案解析和易混淆点
+- ✅ **响应式设计**：支持手机、平板、电脑
+
+## 🚀 快速开始
+
+### 方法一：GitHub Pages（推荐）
+
+1. **创建 GitHub 仓库**
+   ```bash
+   # 在 GitHub 上创建新仓库，例如：medical-history-quiz
