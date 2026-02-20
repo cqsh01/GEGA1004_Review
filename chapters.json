@@ -29,6 +29,76 @@
       "fileName": "egypt_mesopotamia.json",
       "questionCount": 16,
       "description": ""
-    } 
+    },
+    {
+  "id": "greco_roman",
+  "title": "Greco-Roman Medicine",
+  "week": "W2",
+  "instructor": "BAEG Gyeong Hun",
+  "date": "16-Jan-2025",
+  "fileName": "greco_roman.json",
+  "questionCount": 15,
+  "description": "Hippocrates (Father of Medicine), Four Humors theory, bloodletting, Herophilus/Erasistratus (anatomy/physiology pioneers), Asclepeions, Hippocratic Oath, Pedanius Dioscorides (De Materia Medica), Galen (humoral rebalancing, gladiator observations), Roman public health/sanitation, surgical tools/prosthetics/dentistry"
+},
+{
+  "id": "india_middle_east",
+  "title": "The Medical Traditions of India and Middle East",
+  "week": "W3",
+  "instructor": "BAEG GYEONG HUN",
+  "date": "20-Jan-2025",
+  "fileName": "india_middle_east.json",
+  "questionCount": 15,
+  "description": "Ayurveda (holistic system, five elements, three doshas Vata/Pitta/Kapha, srotas channels, agni metabolism), Susruta Samhita (surgery), Charaka Samhita (internal medicine), Islamic Golden Age medicine, Al-Rhazi (smallpox/measles distinction), Al-Zahrawi (surgical instruments), Ibn al-Nafis (pulmonary circulation), Ibn Sina/Avicenna (Canon of Medicine), Ibn al-Baytar (pharmacology)"
+},
+{
+  "id": "america_africa",
+  "title": "The Medical Traditions of America and Africa",
+  "week": "W4",
+  "instructor": "BAEG GYEONG HUN",
+  "date": "06-Feb-2025",
+  "fileName": "america_africa.json",
+  "questionCount": 15,
+  "description": "Alchemy (Chinese/Egyptian/Islamic traditions, Zosimos, Jabir ibn Hayyan's element classification, mercury/sulfur compounds), Native North American medicine (balance philosophy, willow bark/salicylate, sage), Aztec/Mayan medicine (Ah'men, pulque, obsidian, curare, coca), African herbalism (Securidaca violet tree, Momordica pumpkin, Prunus africana), West Asian medicine (frankincense, mastic resin, gum arabic)"
+},
+{
+  "id": "renaissance_1",
+  "title": "Renaissance: The Rise of Scientific Medicine-I",
+  "week": "W5",
+  "instructor": "BAEG GYEONG HUN",
+  "date": "10-Feb-2025",
+  "fileName": "renaissance_1.json",
+  "questionCount": 15,
+  "description": "European Dark Ages medicine, Salerno medical school (Alfanus I, Constantine the African), Vesalius' anatomical revolution (De Humani Corporis Fabrica, Basel Skeleton), Renaissance anatomists (Falloppio, Eustachius), barber-surgeons, Ambroise Paré's surgical innovations (ligatures, wound balms, prosthetics)"
+},
+{
+  "id": "renaissance_2",
+  "title": "Renaissance: The Rise of Scientific Medicine-II",
+  "week": "W5",
+  "instructor": "BAEG GYEONG HUN",
+  "date": "13-Feb-2025",
+  "fileName": "renaissance_2.json",
+  "questionCount": 15,
+  "description": "William Harvey's circulation discovery (double circulation, De Motu Cordis, ligature experiments), Ibn al-Nafis (pulmonary circulation), Marcello Malpighi (capillaries, microscopical anatomy), Thomas Sydenham (English Hippocrates, disease classification, clinical observation), reconstructive surgery history (Susruta rhinoplasty, Tagliacozzi, von Gräfe), microscope development (Janssen, Hooke's Micrographia/cell term, Leeuwenhoek's animalcules, Cohn's bacterial classification)"
+},
+{
+  "id": "industrial_age",
+  "title": "Medical Branches of the Industrial Age",
+  "week": "W6",
+  "instructor": "BAEG GYEONG HUN",
+  "date": "17-Feb-2025",
+  "fileName": "industrial_age.json",
+  "questionCount": 15,
+  "description": "Microscope evolution (Leeuwenhoek's animalcules, Hooke's 'cell' term, Malpighi's capillaries/histology, Cohn's bacterial classification), histopathology (Müller 1838, Golgi/Cajal 1906 Nobel), cellular pathology (Virchow 1858), anesthesia revolution (Morton ether 1846, Simpson chloroform 1847, local/spinal anesthesia), antiseptic/aseptic surgery (Semmelweis handwashing 1847, Lister carbolic acid 1865, Macewen steam sterilization, rubber gloves 1897), neurology founding (Charcot, Macewen brain tumor 1878)"
+},
+{
+  "id": "pandemics_1",
+  "title": "Global Pandemics and Therapeutics-I",
+  "week": "W6",
+  "instructor": "BAEG GYEONG HUN",
+  "date": "20-Feb-2025",
+  "fileName": "pandemics_1.json",
+  "questionCount": 15,
+  "description": "Historical pandemics (Athens 430 BCE, Justinian 542 CE, Black Death 1347–1351), plague transmission (Yersinia pestis, rat fleas), buboes symptomatology, quarantine origin (Venice 40 days), plague doctor costumes/miasma theory, Americas demographic collapse (smallpox/measles), cinchona bark/quinine for malaria, smallpox history/eradication (al-Razi differentiation, Lady Montagu variolation, Jenner vaccination 1796, WHO campaign 1967–1980)"
+}
   ]
 }

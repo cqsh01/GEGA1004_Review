@@ -1,0 +1,156 @@
+{
+  "week": "W6",
+  "title": "Global Pandemics and Therapeutics-I",
+  "questions": [
+    {
+      "question": "The Black Death pandemic that devastated Europe between 1347–1351 killed approximately what percentage of the continent's population?",
+      "options": [
+        { "text": "10–15%", "isCorrect": false, "reason": "This underestimates the mortality; Black Death was far more devastating" },
+        { "text": "25–30%", "isCorrect": false, "reason": "While severe, this still underestimates the actual death toll" },
+        { "text": "50–60%", "isCorrect": true, "reason": "PDF explicitly states: 'Over the next five years, the Black Death plague killed approximately 50-60% of the continent's population'" },
+        { "text": "80–90%", "isCorrect": false, "reason": "This overestimates mortality; while catastrophic, approximately half the population survived" }
+      ],
+      "explanation": "Historical impact: The Black Death (bubonic plague) represents one of history's most devastating pandemics. Its 50–60% mortality rate caused massive socioeconomic disruption—labor shortages led to end of feudalism in Western Europe, while religious institutions lost credibility due to inability to stop the plague."
+    },
+    {
+      "question": "The primary vector (transmission agent) for the Black Death in medieval Europe was:",
+      "options": [
+        { "text": "Mosquitoes carrying the malaria parasite", "isCorrect": false, "reason": "Mosquitoes transmit malaria, not plague; Black Death vector was different" },
+        { "text": "Infected fleas harbored by black rats (Rattus rattus)", "isCorrect": true, "reason": "PDF states: 'The Black Death's vector was infected fleas harbored by the black rat (Rattus rattus), which thrived in the unsanitary conditions prevalent in medieval cities'" },
+        { "text": "Contaminated drinking water from rivers", "isCorrect": false, "reason": "Waterborne transmission characterizes cholera, not plague; medieval Europeans didn't understand germ theory" },
+        { "text": "Airborne droplets from coughing patients", "isCorrect": false, "reason": "While pneumonic plague spreads this way, the primary bubonic form spread via flea bites from infected rodents" }
+      ],
+      "explanation": "Transmission mechanism: Understanding plague's rodent-flea-human cycle explains its geographic spread patterns—thriving in crowded, unsanitary medieval cities with abundant rat populations. This knowledge wasn't established until 1898 when rat fleas were identified as vectors, centuries after the pandemic."
+    },
+    {
+      "question": "The characteristic initial symptom of bubonic plague was:",
+      "options": [
+        { "text": "High fever and delirium within 24 hours", "isCorrect": false, "reason": "Fever occurred but wasn't the defining initial symptom" },
+        { "text": "Swellings in lymph nodes (buboes) in groin, armpits, or neck", "isCorrect": true, "reason": "PDF explicitly states: 'The first symptoms of the disease were swellings in the lymph nodes of the groin, armpits, or neck, known as buboes—the bubonic plague'" },
+        { "text": "Bloody diarrhea and severe dehydration", "isCorrect": false, "reason": "This describes cholera or dysentery, not bubonic plague" },
+        { "text": "Red rash covering the entire body within 48 hours", "isCorrect": false, "reason": "Rash characterizes smallpox or measles; plague's hallmark was lymph node swelling" }
+      ],
+      "explanation": "Clinical identification: Buboes (swollen, painful lymph nodes) gave bubonic plague its name and enabled clinical differentiation from other epidemic diseases. These swellings resulted from Yersinia pestis bacteria multiplying in lymph nodes after flea-borne transmission—though medieval physicians attributed them to 'bad air' (miasma theory)."
+    },
+    {
+      "question": "The term 'quarantine' originated from which historical practice?",
+      "options": [
+        { "text": "Isolating plague victims in remote mountain villages", "isCorrect": false, "reason": "While isolation occurred, this wasn't the origin of the term 'quarantine'" },
+        { "text": "Requiring ships from infected ports to remain at anchor for 40 days before landing in Venice (1348)", "isCorrect": true, "reason": "PDF states: 'In 1348 ships arriving in Venice from infected ports were required to sit at anchor for 40 days before landing' and 'Quarantine was derived from quaranta giorni, meaning 40 days'" },
+        { "text": "Burning infected clothing and bedding to prevent disease spread", "isCorrect": false, "reason": "Disinfection practice existed but didn't give rise to the term 'quarantine'" },
+        { "text": "Mandatory 40-day prayer periods for plague survivors", "isCorrect": false, "reason": "Religious practices existed but weren't the etymological source" }
+      ],
+      "explanation": "Etymology and public health: Venice's 40-day isolation period (quaranta giorni) represented one of history's first systematic public health interventions based on empirical observation—ships arriving during plague season often carried infected rats/fleas that took weeks to manifest disease. This practice laid groundwork for modern epidemic containment strategies."
+    },
+    {
+      "question": "Yersinia pestis, the bacterium causing plague, was discovered in 1894 by:",
+      "options": [
+        { "text": "Robert Koch and Louis Pasteur", "isCorrect": false, "reason": "Koch discovered tuberculosis bacillus; Pasteur developed vaccines but didn't discover Y. pestis" },
+        { "text": "Shibasaburo Kitasato and Alexandre Yersin", "isCorrect": true, "reason": "PDF explicitly states: 'In 1894 the plague-causing bacillus was discovered by Japanese bacteriologist Shibasaburo Kitasato and French bacteriologist Alexandre Yersin; it was eventually named Yersinia pestis'" },
+        { "text": "Edward Jenner and John Fewster", "isCorrect": false, "reason": "Jenner/Fewster worked on smallpox vaccination, not plague bacteriology" },
+        { "text": "Ignaz Semmelweis and Joseph Lister", "isCorrect": false, "reason": "Semmelweis/Lister pioneered antiseptic practices but didn't discover plague bacterium" }
+      ],
+      "explanation": "Scientific priority: Kitasato and Yersin independently identified the plague bacillus within days of each other in Hong Kong (1894). Though Kitasato published first, Yersin's cultures were more reliable—leading to the bacterium being named after Yersin. This discovery enabled development of antiserum (1896) and later antibiotics (streptomycin, 1940s) that reduced mortality from ~60% to ~5%."
+    },
+    {
+      "question": "When Europeans arrived in the Americas in the late 15th century, indigenous populations suffered catastrophic mortality primarily because they:",
+      "options": [
+        { "text": "Lacked natural immunity to Old World infectious diseases", "isCorrect": true, "reason": "PDF states Europeans 'triggered one of the greatest series of epidemics in world history. Without natural immunity or appropriate medical care, tens of millions of native Americans died to infectious diseases brought by the newcomers'" },
+        { "text": "Refused European medical treatments due to cultural beliefs", "isCorrect": false, "reason": "While cultural differences existed, the primary cause was immunological vulnerability, not treatment refusal" },
+        { "text": "Had inferior sanitation systems compared to Europeans", "isCorrect": false, "reason": "Sanitation differences existed but weren't the primary mortality driver; immunological naivety was key" },
+        { "text": "Were deliberately infected with smallpox via contaminated blankets", "isCorrect": false, "reason": "While isolated incidents of biological warfare occurred later, the initial pandemic wave resulted from unintentional transmission due to immunological vulnerability" }
+      ],
+      "explanation": "Demographic catastrophe: Native Americans had been isolated from Eurasian/African disease pools for ~15,000 years—never encountering smallpox, measles, influenza, or other crowd diseases that Europeans had survived (and developed immunity to) over millennia. This 'virgin soil epidemic' phenomenon caused mortality rates of 50–90% in many communities—decimating the Aztec Empire (smallpox killed ~50% including Emperor Cuitláhuac) and Inca Empire before Spanish military conquest."
+    },
+    {
+      "question": "Cinchona bark, used to treat malaria, became globally significant when:",
+      "options": [
+        { "text": "Edward Jenner used it to develop the first malaria vaccine in 1800", "isCorrect": false, "reason": "Jenner worked on smallpox vaccination, not malaria; malaria vaccines weren't developed until 21st century" },
+        { "text": "French chemist Pierre-Joseph Pelletier extracted quinine from it in 1820", "isCorrect": true, "reason": "PDF states: 'In 1820 the cinchona bark's active ingredient was extracted by French chemist Pierre-Joseph Pelletier. Named quinine, it has the reputation, after antibiotics, of helping more people than any other medication for infectious diseases'" },
+        { "text": "Alexander Fleming discovered its antibiotic properties in 1928", "isCorrect": false, "reason": "Fleming discovered penicillin from mold, not cinchona bark" },
+        { "text": "Peruvian shamans first introduced it to Europeans in the 16th century", "isCorrect": false, "reason": "While indigenous South Americans used cinchona traditionally, its global medical significance came with quinine extraction enabling standardized dosing" }
+      ],
+      "explanation": "Pharmacological breakthrough: Indigenous Andean peoples used cinchona bark for fever treatment for centuries. Spanish colonists learned of it in the 17th century ('Jesuit's bark'), but inconsistent potency limited reliability. Pelletier's 1820 quinine extraction enabled precise dosing—making malaria treatment predictable and scalable. Quinine remained primary antimalarial until synthetic alternatives (chloroquine) emerged in the 1940s."
+    },
+    {
+      "question": "Smallpox was historically significant as:",
+      "options": [
+        { "text": "The first disease proven to be caused by a virus", "isCorrect": false, "reason": "Viral nature wasn't confirmed until 20th century; smallpox's significance lies elsewhere" },
+        { "text": "The first infection to be immunized against and the first major global disease eradicated", "isCorrect": true, "reason": "PDF states: 'Smallpox has featured in all recorded history, killed 500 millions. It was the first infection to be immunized against, as well as the first—and currently only—major global disease to have been eradicated'" },
+        { "text": "The disease that killed more people than any other in human history", "isCorrect": false, "reason": "While devastating (~500 million deaths), malaria has likely killed more people cumulatively throughout history" },
+        { "text": "The first disease treated with antibiotics in the 1940s", "isCorrect": false, "reason": "Antibiotics treat bacterial infections; smallpox is viral and unaffected by antibiotics" }
+      ],
+      "explanation": "Eradication milestone: Smallpox's eradication (declared 1980) remains public health's greatest achievement—demonstrating that coordinated global vaccination campaigns can eliminate infectious diseases. Key factors enabling eradication: (1) humans are only host (no animal reservoir), (2) obvious symptoms enable surveillance, (3) single-dose vaccine provides long-term immunity, (4) freeze-dried vaccine stable without refrigeration."
+    },
+    {
+      "question": "Islamic physician al-Razi (c. 910 CE) made a crucial contribution to infectious disease medicine by:",
+      "options": [
+        { "text": "Discovering the smallpox virus under an early microscope", "isCorrect": false, "reason": "Microscopes weren't invented until 17th century; al-Razi worked centuries earlier" },
+        { "text": "Developing the first smallpox vaccine using cowpox material", "isCorrect": false, "reason": "Vaccination was developed by Edward Jenner in 1798; al-Razi worked 900 years earlier" },
+        { "text": "Writing Kitab al-Jadari wa 'l-Hasba explaining how to distinguish smallpox from measles", "isCorrect": true, "reason": "PDF states: 'In about 910 CE, Islamic physician al-Razi explained how to distinguish smallpox from other blister-forming diseases in his Kitab al-Jadari wa 'l-Hasba (Treatise on Smallpox and Measles)'" },
+        { "text": "Discovering that survivors develop lifelong immunity to smallpox", "isCorrect": false, "reason": "While al-Razi noted survivors didn't get reinfected, the immunological mechanism wasn't understood until centuries later" }
+      ],
+      "explanation": "Clinical differentiation: Al-Razi's treatise represented medicine's first systematic clinical description distinguishing two similar vesicular diseases—critical because smallpox had ~30% mortality while measles was less deadly. His observation that survivors gained immunity laid groundwork for variolation (intentional infection with mild smallpox to induce protection), practiced in China/India centuries before Jenner's safer cowpox-based vaccination."
+    },
+    {
+      "question": "Lady Mary Wortley Montagu (1689–1762) significantly advanced smallpox prevention in Britain by:",
+      "options": [
+        { "text": "Discovering the cowpox-smallpox immunity connection", "isCorrect": false, "reason": "This was Edward Jenner's contribution (1796); Montagu promoted earlier variolation technique" },
+        { "text": "Campaigning to introduce variolation (deliberate smallpox infection) after witnessing it in Turkey", "isCorrect": true, "reason": "PDF states: 'Lady Montagu started a successful campaign to introduce variolation to Britain. She had suffered from smallpox in her youth and also lost her brother to the disease' and 'persuaded the royal doctor Hans Sloane to try variolation by 1721'" },
+        { "text": "Developing the first freeze-dried smallpox vaccine", "isCorrect": false, "reason": "Freeze-drying technology emerged in the 1940s for WHO eradication campaign; Montagu worked in early 18th century" },
+        { "text": "Proving germ theory by isolating Variola virus", "isCorrect": false, "reason": "Virus isolation required 20th-century technology; germ theory wasn't established until late 19th century" }
+      ],
+      "explanation": "Cultural transmission: Montagu observed variolation (inoculation with live smallpox virus) during her husband's diplomatic posting to Constantinople (1716–1718). Despite risks (2–3% mortality vs. 30% natural infection), she had her son variolated and convinced British royalty to trial it—establishing variolation's credibility in Europe decades before Jenner's safer cowpox method. Her advocacy exemplifies how cross-cultural knowledge exchange advanced medicine."
+    },
+    {
+      "question": "Edward Jenner's 1796 smallpox vaccination breakthrough relied on the observation that:",
+      "options": [
+        { "text": "Milkmaids who contracted cowpox were protected against smallpox", "isCorrect": true, "reason": "PDF states: 'English country physician-surgeon Edward Jenner was aware of the common belief that catching cowpox gave protection against smallpox' and describes Case 17 using material from a dairymaid's hand" },
+        { "text": "Quarantine for 40 days prevented smallpox transmission", "isCorrect": false, "reason": "Quarantine prevented plague spread; smallpox's short incubation (7–17 days) made quarantine less effective" },
+        { "text": "Bloodletting reduced smallpox mortality rates", "isCorrect": false, "reason": "Bloodletting was common but ineffective for viral diseases; Jenner's innovation was immunological, not therapeutic" },
+        { "text": "Mercury compounds killed the smallpox virus", "isCorrect": false, "reason": "Mercury had no antiviral properties; Jenner used biological immunization, not chemical treatment" }
+      ],
+      "explanation": "Immunological insight: Jenner didn't discover immunity itself (variolation demonstrated that), but recognized cowpox provided safer protection than variolation. His 1796 experiment—vaccinating James Phipps with cowpox, then challenging with smallpox—proved cross-protection without severe disease risk. The term 'vaccine' derives from Latin 'vacca' (cow). Though initially ridiculed, vaccination's safety advantage (near-zero mortality vs. 2–3% for variolation) enabled global adoption."
+    },
+    {
+      "question": "The World Health Organization's Smallpox Eradication Campaign succeeded partly because:",
+      "options": [
+        { "text": "Antibiotics were developed that killed the Variola virus", "isCorrect": false, "reason": "Antibiotics target bacteria, not viruses; smallpox has no antiviral treatment" },
+        { "text": "Freeze-dry technology made vaccines stable without refrigeration by the 1940s", "isCorrect": true, "reason": "PDF states: 'By the 1940s research into freeze-dry technology made vaccines less expensive, more stable in storage, and considerably easier to prepare and administer'" },
+        { "text": "Genetic engineering created a universal smallpox antiviral drug", "isCorrect": false, "reason": "No antiviral drug exists for smallpox; eradication relied solely on vaccination" },
+        { "text": "Smallpox naturally mutated into a harmless form by the 1970s", "isCorrect": false, "reason": "Variola virus remained virulent until eradication; success resulted from vaccination coverage exceeding 80% in endemic areas" }
+      ],
+      "explanation": "Logistical innovation: Freeze-dried (lyophilized) vaccine could withstand tropical temperatures for weeks without refrigeration—critical for reaching remote villages in India, Bangladesh, and Ethiopia where smallpox persisted. Combined with 'ring vaccination' strategy (vaccinating all contacts of cases rather than mass vaccination), this enabled WHO to interrupt transmission chains even in resource-limited settings."
+    },
+    {
+      "question": "Medieval plague doctors wore distinctive costumes with bird-like beaks primarily because they believed:",
+      "options": [
+        { "text": "The beak shape improved airflow for breathing during long procedures", "isCorrect": false, "reason": "Design wasn't functional for respiration; it served symbolic/protective purpose" },
+        { "text": "Miasmas (noxious vapors in air) caused disease and aromatic substances in the beak would purify inhaled air", "isCorrect": true, "reason": "PDF states plague doctors wore 'masks with birdlike beaks, to reduce exposure to the \"miasmas\" believed to be the cause of the disease' and mentions pomanders/carried scents to 'cleanse the infected air'" },
+        { "text": "The costume intimidated patients into confessing sins that caused their illness", "isCorrect": false, "reason": "While plague was viewed as divine punishment, costumes weren't designed for psychological coercion" },
+        { "text": "Metal components in the mask filtered out disease-causing bacteria", "isCorrect": false, "reason": "Bacteria weren't discovered until 17th century; miasma theory dominated medieval medicine" }
+      ],
+      "explanation": "Miasma theory context: Before germ theory (19th century), disease causation was attributed to 'bad air' from rotting matter, swamps, or corpses. Plague doctors filled beaks with aromatic substances (rose petals, cloves, myrrh) believed to neutralize miasmas. Though ineffective against flea-borne transmission, this practice reflected rational (if incorrect) disease theory—demonstrating how pre-scientific medicine still employed systematic reasoning within available conceptual frameworks."
+    },
+    {
+      "question": "The last known natural case of smallpox infection occurred in:",
+      "options": [
+        { "text": "India in 1975", "isCorrect": false, "reason": "India's last case was in 1975, but not the world's final case" },
+        { "text": "Brazil in 1971", "isCorrect": false, "reason": "Brazil's last case was in 1971 (South America's final case), but not globally" },
+        { "text": "Somalia in 1977", "isCorrect": true, "reason": "PDF explicitly states: 'The last known case of natural smallpox infection was identified in Somalia, Africa, in 1977'" },
+        { "text": "United Kingdom in 1978", "isCorrect": false, "reason": "UK's 1978 case was laboratory-acquired (Janet Parker), not natural transmission" }
+      ],
+      "explanation": "Eradication timeline: After Somalia's 1977 case (Ali Maow Maalin, a hospital cook who survived), WHO conducted intensive surveillance for two years without finding additional cases. The disease's eradication was officially declared in 1980. Two later deaths occurred from laboratory accidents (UK 1978, USSR 1971), highlighting ongoing biosafety concerns—today only two WHO-approved repositories hold live Variola virus (CDC Atlanta and VECTOR Russia)."
+    },
+    {
+      "question": "A key difference between variolation and vaccination for smallpox prevention is that:",
+      "options": [
+        { "text": "Variolation used cowpox virus while vaccination used live smallpox virus", "isCorrect": false, "reason": "This reverses the actual distinction; variolation used smallpox, vaccination used cowpox" },
+        { "text": "Variolation deliberately infected patients with live smallpox virus, while vaccination used the safer cowpox virus", "isCorrect": true, "reason": "PDF context shows Jenner's innovation was replacing dangerous variolation (smallpox inoculation with 2–3% mortality) with cowpox vaccination (near-zero mortality) while maintaining immunity" },
+        { "text": "Variolation required quarantine while vaccination did not", "isCorrect": false, "reason": "Both required isolation during infectious period; cowpox was less transmissible but still required precautions" },
+        { "text": "Variolation was practiced only in Europe while vaccination originated in Asia", "isCorrect": false, "reason": "Variolation originated in China/India/Ottoman Empire; vaccination was European innovation building on global knowledge" }
+      ],
+      "explanation": "Risk-benefit evolution: Variolation (intentional smallpox infection via nasal insufflation or skin scratch) reduced mortality from ~30% (natural infection) to ~2–3%, but recipients remained infectious and could trigger outbreaks. Jenner's cowpox vaccination provided similar immunity with negligible mortality and minimal transmission risk—enabling safe mass immunization campaigns impossible with variolation. This safety advantage drove vaccination's global adoption despite initial skepticism."
+    }
+  ]
+}

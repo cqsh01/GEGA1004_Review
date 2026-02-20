@@ -1,0 +1,156 @@
+{
+  "week": "W6",
+  "title": "Medical Branches of the Industrial Age",
+  "questions": [
+    {
+      "question": "Although the compound microscope was invented in the 1590s, it only began to be used for medical research approximately:",
+      "options": [
+        { "text": "Immediately after its invention in the 1590s", "isCorrect": false, "reason": "Early microscopes had limited magnification and clarity; medical applications required decades of refinement" },
+        { "text": "Half a century later, around the 1640s–1650s", "isCorrect": true, "reason": "PDF explicitly states: 'The compound microscope... invented in the 1590s, only began to be used for medical research half a century after its invention'" },
+        { "text": "Two centuries later in the late 1700s", "isCorrect": false, "reason": "Microscopes were well-established in medical research by the mid-17th century; Leeuwenhoek's discoveries occurred in the 1670s" },
+        { "text": "Three centuries later in the 1890s", "isCorrect": false, "reason": "By the 1890s, microscopy was mature technology; the delay was only ~50 years, not 300" }
+      ],
+      "explanation": "Technology adoption lag: This 50-year delay illustrates how innovations often precede their revolutionary applications. Early microscopes required refinement in lens quality and illumination before revealing cellular structures. Pioneers like Hooke (1665) and Leeuwenhoek (1673) demonstrated medical value only after decades of incremental improvements."
+    },
+    {
+      "question": "Antoni van Leeuwenhoek (1632–1723) is historically significant because he:",
+      "options": [
+        { "text": "Invented the first compound microscope with multiple lenses", "isCorrect": false, "reason": "Compound microscopes were invented by Zacharias Janssen in the 1590s; Leeuwenhoek used single-lens designs" },
+        { "text": "Devised a microscope using a single, almost spherical lens and was the first to observe single-cell organisms (animalcules)", "isCorrect": true, "reason": "PDF states: 'In 1673, Dutch Antoni van Leeuwenhoek devised an unusual microscope using a single, almost spherical lens to observe... animalcules, blood cells, sperm cells... the first person who observed a single cell organism'" },
+        { "text": "First used the term 'cell' to describe microscopic structures", "isCorrect": false, "reason": "Robert Hooke first used 'cell' in his 1665 book Micrographia; Leeuwenhoek observed but didn't name cellular structures" },
+        { "text": "Discovered bacteria as the cause of infectious diseases", "isCorrect": false, "reason": "While Leeuwenhoek observed bacteria ('animalcules'), germ theory linking them to disease wasn't established until the 19th century" }
+      ],
+      "explanation": "Observational breakthrough: Leeuwenhoek's single-lens microscopes achieved remarkable magnification (up to 270x) despite simplicity. His discovery of 'animalcules' opened an entirely new biological world—though their disease-causing role wouldn't be understood for another 200 years. His meticulous drawings established microscopy as rigorous scientific method."
+    },
+    {
+      "question": "Robert Hooke's 1665 publication 'Micrographia' was groundbreaking primarily because it:",
+      "options": [
+        { "text": "Discovered the circulation of blood through microscopic observation", "isCorrect": false, "reason": "Blood circulation was discovered by Harvey using macroscopic methods; Hooke focused on static structures" },
+        { "text": "First used the term 'cell' to describe the microscopic structure of cork and other biological specimens", "isCorrect": true, "reason": "PDF states Hooke 'first used the term \"cell\"' in Micrographia, which contained 'drawings of many tiny objects, from parts of plants to insect eyes and legs'" },
+        { "text": "Identified capillaries connecting arteries and veins", "isCorrect": false, "reason": "Capillaries were discovered by Marcello Malpighi in 1661; Hooke focused on larger structures visible with his microscope" },
+        { "text": "Classified bacteria into four morphological groups", "isCorrect": false, "reason": "Bacterial classification was Ferdinand Cohn's contribution in the 1870s; Hooke worked two centuries earlier" }
+      ],
+      "explanation": "Terminological legacy: Hooke's term 'cell' (inspired by monks' small rooms) became biology's fundamental unit. Micrographia's detailed engravings made microscopic discoveries accessible beyond specialist circles—demonstrating how scientific communication (not just discovery) drives progress."
+    },
+    {
+      "question": "Marcello Malpighi (1628–1694) earned the title 'Founder of microscopical anatomy and histology' primarily because he:",
+      "options": [
+        { "text": "Invented the first practical electron microscope", "isCorrect": false, "reason": "Electron microscopes were 20th-century inventions; Malpighi used light microscopy" },
+        { "text": "Identified capillaries between arteries and veins in 1661, completing Harvey's circulation theory, and established foundations for tissue study", "isCorrect": true, "reason": "PDF states: 'In 1661, Italian scientist Marcello Malpighi identified capillaries between the tiny arteries and veins which complete the circulation' and he is called 'Founder of microscopical anatomy, histology & Father of physiology and embryology'" },
+        { "text": "Discovered bacteria as the cause of infectious diseases", "isCorrect": false, "reason": "Germ theory emerged in the 19th century; Malpighi observed microscopic structures but didn't connect them to disease causation" },
+        { "text": "Developed the first standardized staining techniques for tissue examination", "isCorrect": false, "reason": "Staining techniques developed later; H&E staining was introduced by Wissowzky in 1876" }
+      ],
+      "explanation": "Anatomical legacy: Malpighi's discoveries established that organs have microscopic structures with specific functions—laying groundwork for histology. Structures named after him (Malpighian corpuscles in kidney/spleen) reflect systematic exploration of organ microanatomy. His work bridged Harvey's macroscopic circulation theory and later cellular biology."
+    },
+    {
+      "question": "The development of histopathology as a discipline was significantly advanced by:",
+      "options": [
+        { "text": "Johannes Müller's 1838 work 'On the Nature and Structural Characteristics of Cancer'", "isCorrect": true, "reason": "PDF explicitly states: 'The first work to describe histopathology and its techniques was \"On the Nature and Structural Characteristics of Cancer\" by German physiologist Johannes Müller in 1838'" },
+        { "text": "Robert Hooke's 1665 Micrographia describing plant cells", "isCorrect": false, "reason": "While foundational for microscopy, Hooke's work preceded histopathology as a clinical discipline by nearly two centuries" },
+        { "text": "Ignaz Semmelweis' 1847 hand-washing protocols", "isCorrect": false, "reason": "Semmelweis focused on infection prevention, not tissue pathology examination" },
+        { "text": "William Morton's 1846 demonstration of ether anesthesia", "isCorrect": false, "reason": "Morton revolutionized surgery through pain control, not pathological diagnosis" }
+      ],
+      "explanation": "Disciplinary foundation: Müller's 1838 work established systematic examination of diseased tissues under microscope as diagnostic method—transforming pathology from gross organ observation to cellular-level analysis. This enabled precise disease classification (e.g., distinguishing cancer types) and laid groundwork for modern diagnostic pathology."
+    },
+    {
+      "question": "The 1906 Nobel Prize in Physiology or Medicine was awarded to Camillo Golgi and Santiago Ramón y Cajal for their work on:",
+      "options": [
+        { "text": "Discovering the circulation of blood through capillaries", "isCorrect": false, "reason": "Blood circulation was Harvey's discovery; capillaries were Malpighi's contribution" },
+        { "text": "Developing Golgi stain to visualize nerve cell details and describing neuronal organization in the brain", "isCorrect": true, "reason": "PDF states: 'In 1906 the Nobel Prize... was jointly awarded to two histologists: Camillo Golgi developed a stain to show the details of nerve cells, while Santiago Ramón y Cajal described the organization of these cells in the brain'" },
+        { "text": "Discovering bacteria as the cause of infectious diseases", "isCorrect": false, "reason": "Germ theory proof was primarily Robert Koch's work; Nobel Prize for bacteriology came earlier (1905 to Koch)" },
+        { "text": "Developing the first effective vaccine against rabies", "isCorrect": false, "reason": "Rabies vaccine was developed by Louis Pasteur in 1885; Nobel Prizes weren't awarded until 1901" }
+      ],
+      "explanation": "Neuroanatomical breakthrough: Golgi's silver stain (impregnating only ~1-3% of neurons) revealed entire nerve cell structures—including dendrites and axons—previously invisible. Cajal used this technique to establish the 'neuron doctrine' (neurons as discrete units), revolutionizing neuroscience. Their complementary approaches exemplify how methodological innovation enables conceptual breakthroughs."
+    },
+    {
+      "question": "Rudolf Virchow's 1858 publication 'Cellular Pathology' revolutionized medicine by arguing that:",
+      "options": [
+        { "text": "Diseases are caused exclusively by miasmas (bad air) entering the body", "isCorrect": false, "reason": "Miasma theory was being displaced by germ theory in Virchow's era; he focused on cellular changes, not environmental vapors" },
+        { "text": "Diseases arise from abnormal changes within individual cells rather than whole organs", "isCorrect": true, "reason": "PDF states Virchow 'argued that diseases arise from abnormal changes within cells'—shifting pathology from organ-based to cell-based disease concepts" },
+        { "text": "All diseases are caused by bacterial infection requiring antibiotic treatment", "isCorrect": false, "reason": "Germ theory was emerging but not yet dominant; antibiotics weren't discovered until the 20th century" },
+        { "text": "Surgical intervention should replace all medical treatments for serious conditions", "isCorrect": false, "reason": "Virchow was primarily a pathologist/theorist; he didn't advocate surgery as universal solution" }
+      ],
+      "explanation": "Conceptual shift: Virchow's cellular pathology represented medicine's most important conceptual transition since humoral theory—establishing that disease originates at cellular level. This enabled precise diagnosis (e.g., identifying cancer cells) and targeted treatments. His famous dictum 'omnis cellula e cellula' (every cell comes from a cell) also laid groundwork for understanding cellular proliferation in cancer."
+    },
+    {
+      "question": "Ignaz Semmelweis' 1847 intervention dramatically reduced maternal mortality by implementing:",
+      "options": [
+        { "text": "Routine vaccination of pregnant women against smallpox", "isCorrect": false, "reason": "Vaccination wasn't standard obstetric practice; Semmelweis focused on hygiene, not immunization" },
+        { "text": "A system of rigorous hand-washing in chlorinated water plus cleansing of surgical instruments and dressings", "isCorrect": true, "reason": "PDF states: 'In 1847 Hungarian physician Ignaz Semmelweis set a system of rigorous hand-washing in chlorinated water and the cleansing of surgical instruments and dressings, which reduced infection rates'" },
+        { "text": "Universal use of chloroform anesthesia during childbirth", "isCorrect": false, "reason": "Chloroform for childbirth was Simpson's innovation (1847); Semmelweis focused on infection prevention, not pain control" },
+        { "text": "Mandatory blood transfusions for postpartum hemorrhage", "isCorrect": false, "reason": "Blood transfusion technology wasn't safe/reliable until 20th century; Semmelweis worked before germ theory" }
+      ],
+      "explanation": "Tragic irony: Semmelweis empirically discovered hand hygiene's life-saving value decades before germ theory explained why it worked. Despite dramatic mortality reduction (from ~18% to ~1%), his ideas were rejected by medical establishment—partly because he couldn't explain the mechanism. He died in an asylum in 1865, just as Pasteur was proving microbial disease causation."
+    },
+    {
+      "question": "Joseph Lister's antiseptic revolution in the 1860s was directly inspired by:",
+      "options": [
+        { "text": "Edward Jenner's smallpox vaccination experiments", "isCorrect": false, "reason": "Vaccination worked via immune stimulation, not antisepsis; Lister's inspiration came from microbiology" },
+        { "text": "Louis Pasteur's demonstration that microorganisms cause infection", "isCorrect": true, "reason": "PDF states: 'In the 1850s Louis Pasteur showed that the causes of infection were microorganisms entering wounds' and 'In August 1865, Edinburgh doctor Joseph Lister applied carbolic acid to wounds for preventing post-operative infection'" },
+        { "text": "William Harvey's description of blood circulation", "isCorrect": false, "reason": "Circulation theory was 17th century; Lister's work built on 19th-century microbiology" },
+        { "text": "Rudolf Virchow's cellular pathology concepts", "isCorrect": false, "reason": "While contemporaneous, Virchow focused on disease origins within cells; Lister focused on preventing external microbial contamination" }
+      ],
+      "explanation": "Theory to practice: Lister uniquely connected Pasteur's theoretical microbiology to surgical practice. By applying carbolic acid (phenol) to wounds, instruments, and even spraying operating rooms (1869), he reduced amputation mortality from ~45% to ~15%. His success provided crucial evidence supporting germ theory—demonstrating how applied innovation can validate theoretical science."
+    },
+    {
+      "question": "William Macewen's contributions to surgical safety in the 1870s–1890s included all of the following EXCEPT:",
+      "options": [
+        { "text": "Pioneering steam sterilization of surgical instruments and masks", "isCorrect": false, "reason": "PDF explicitly states Macewen 'pioneered the use of steam to cleanse surgical instruments and masks'" },
+        { "text": "Designing all-steel surgical instruments that could withstand high-temperature sterilization", "isCorrect": false, "reason": "PDF explicitly states he 'devised a set of all-steel surgical instruments that could be sterilized at high temperatures'" },
+        { "text": "Performing the first successful removal of a brain tumor (meningioma) in 1878", "isCorrect": false, "reason": "PDF mentions Macewen's 1878 tumor excision as pioneering neurosurgery; this was a surgical achievement, not safety innovation" },
+        { "text": "Developing the first effective antibiotic treatment for surgical wound infections", "isCorrect": true, "reason": "Antibiotics weren't discovered until the 20th century (Fleming 1928); Macewen worked with antiseptics/asepsis, not antibiotics" }
+      ],
+      "explanation": "Asepsis vs. antisepsis: Macewen advanced 'asepsis' (preventing microbial presence) through sterilization, complementing Lister's 'antisepsis' (killing existing microbes). Together these approaches reduced surgical infection risk dramatically—though not eliminated until antibiotics arrived. His steel instruments represented crucial material innovation enabling reliable sterilization."
+    },
+    {
+      "question": "The introduction of rubber gloves in surgery (first recorded 1897) primarily addressed which problem?",
+      "options": [
+        { "text": "Surgeons' hand fatigue during long operations", "isCorrect": false, "reason": "Gloves weren't primarily for comfort; their medical purpose was infection control" },
+        { "text": "Preventing transmission of microorganisms from surgeons' hands to patients' wounds", "isCorrect": true, "reason": "PDF states rubber gloves 'further reduced the number of cases of infection—until then surgeons had worked with bare hands'" },
+        { "text": "Protecting surgeons from blood-borne pathogens like HIV", "isCorrect": false, "reason": "HIV wasn't discovered until 1983; 19th-century concern was general wound infection, not specific viruses" },
+        { "text": "Improving surgeons' tactile sensitivity during delicate procedures", "isCorrect": false, "reason": "Early gloves likely reduced tactile sensitivity; infection prevention outweighed this drawback" }
+      ],
+      "explanation": "Final barrier: Rubber gloves represented the last major barrier to completing the aseptic surgery system—after instrument sterilization (Macewen), operating room cleanliness (Lister's sprays), and hand washing (Semmelweis). Their 1897 introduction coincided with understanding that even 'clean' hands harbor microbes. Boilable rubber enabled reliable decontamination between patients."
+    },
+    {
+      "question": "William Morton's 1846 demonstration of ether anesthesia at Massachusetts General Hospital was historically significant because it:",
+      "options": [
+        { "text": "First introduced the concept of surgical anesthesia to medicine", "isCorrect": false, "reason": "Anesthesia concepts existed earlier (Chinese hemp 2nd century CE, medieval 'sleep sponges'); Morton demonstrated practical, reliable method" },
+        { "text": "Marked the beginning of modern pain-free surgery, enabling complex operations previously impossible due to patient suffering", "isCorrect": true, "reason": "PDF states: 'In 1846 American dentist William Morton came up with an effective solution by using gas to anesthetize a patient, and the era of modern pain-free surgery began'" },
+        { "text": "Discovered the chemical structure of ether molecules", "isCorrect": false, "reason": "Chemical structure determination came later; Morton applied existing chemical practically" },
+        { "text": "Proved germ theory by showing anesthesia reduced postoperative infections", "isCorrect": false, "reason": "Anesthesia addressed pain, not infection; germ theory emerged separately in 1850s–1870s" }
+      ],
+      "explanation": "Surgical revolution: Before anesthesia, surgery was limited to rapid procedures (amputations in <2 minutes) or superficial interventions. Morton's public demonstration (tooth extraction under ether) proved painless surgery was possible—enabling longer, more complex operations (abdominal, thoracic, neurological) that transformed surgery from last-resort trauma management to planned therapeutic intervention."
+    },
+    {
+      "question": "James Young Simpson's 1847 introduction of chloroform anesthesia offered advantages over ether primarily because chloroform was:",
+      "options": [
+        { "text": "Completely non-flammable and faster-acting with a more pleasant odor", "isCorrect": true, "reason": "PDF states Simpson 'first used chloroform which was faster-acting and gentler than ether'; chloroform's non-flammability was critical safety advantage in era of open-flame lighting" },
+        { "text": "Cheaper to produce and more widely available globally", "isCorrect": false, "reason": "While cost mattered, primary advantages were clinical (speed, gentleness) and safety (non-flammability)" },
+        { "text": "The first anesthetic proven safe for use in children", "isCorrect": false, "reason": "Chloroform actually had higher toxicity risks (cardiac arrhythmia) than ether; neither was initially proven safe for children" },
+        { "text": "Developed through systematic clinical trials meeting modern research standards", "isCorrect": false, "reason": "19th-century medical innovation relied on empirical observation, not controlled trials; Simpson tested chloroform on himself and colleagues" }
+      ],
+      "explanation": "Risk-benefit evolution: Chloroform's advantages (speed, non-flammability, pleasant odor) made it popular—especially for childbirth (Queen Victoria used it in 1853). However, its narrow therapeutic window (toxic dose close to effective dose) caused fatalities. By early 20th century, safer agents replaced both ether and chloroform—demonstrating medicine's iterative safety improvement process."
+    },
+    {
+      "question": "Jean-Martin Charcot (1825–1893) is considered a founder of modern neurology primarily because he:",
+      "options": [
+        { "text": "Discovered the circulation of cerebrospinal fluid", "isCorrect": false, "reason": "CSF circulation was described earlier; Charcot focused on clinical neurology and disease classification" },
+        { "text": "Used microscopic anatomy of tissues to establish neurology as a distinct medical specialty focused on physical brain disorders", "isCorrect": true, "reason": "PDF states: 'The study of the microscopic anatomy of tissues and cells enabled 19th-century clinicians such as French professor Jean-Martin Charcot to establish neurology as a major branch of medicine' distinguishing it from psychiatry" },
+        { "text": "Performed the first successful brain tumor removal surgery", "isCorrect": false, "reason": "First successful brain tumor surgery was William Macewen (1878) or William Keen (1888); Charcot was primarily a clinician/teacher, not surgeon" },
+        { "text": "Discovered neurotransmitters and their role in neural communication", "isCorrect": false, "reason": "Neurotransmitters weren't discovered until the 20th century; Charcot worked with clinical observation and histology" }
+      ],
+      "explanation": "Specialty formation: Charcot transformed neurology from vague 'nervous disorders' into systematic discipline through meticulous clinical observation at Paris' Salpêtrière Hospital. He described multiple sclerosis, Charcot-Marie-Tooth disease, and 'Charcot joints' (neuropathic arthropathy). His famous Tuesday lectures trained a generation of neurologists—including Sigmund Freud—establishing neurology's clinical methodology."
+    },
+    {
+      "question": "The Industrial Age's transformation of surgery resulted from the convergence of which three critical innovations?",
+      "options": [
+        { "text": "Vaccination, antibiotics, and blood transfusion", "isCorrect": false, "reason": "These were 20th-century innovations; Industrial Age surgery transformed through anesthesia, antisepsis, and improved instrumentation" },
+        { "text": "Anesthesia (pain control), antisepsis/asepsis (infection prevention), and refined surgical techniques/instruments", "isCorrect": true, "reason": "PDF describes anesthesia developments (1840s–1890s), Lister's antiseptic revolution (1865+), and Macewen's sterilized steel instruments (1870s+) as complementary innovations enabling complex surgery" },
+        { "text": "X-ray imaging, electrocardiography, and mechanical ventilators", "isCorrect": false, "reason": "These diagnostic/therapeutic technologies emerged late 19th/early 20th century but weren't foundational to Industrial Age surgical transformation" },
+        { "text": "Germ theory, cellular pathology, and histological staining techniques", "isCorrect": false, "reason": "While theoretically important, these enabled diagnosis more than surgical practice; anesthesia and antisepsis directly enabled safer, longer operations" }
+      ],
+      "explanation": "Synergistic revolution: No single innovation transformed surgery—it required all three: anesthesia (patient cooperation/longer operations), antisepsis (survival after surgery), and refined techniques (surgical capability). Before this triad, surgery was limited to amputations and superficial procedures with ~50% mortality. Afterward, abdominal/thoracic/neurological surgery became feasible—laying groundwork for 20th-century surgical specialties."
+    }
+  ]
+}

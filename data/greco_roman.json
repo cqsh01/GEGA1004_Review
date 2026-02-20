@@ -1,0 +1,154 @@
+{
+  "questions": [
+    {
+      "question": "Hippocrates (c. 460–370 BCE) is historically recognized as the 'Father of Modern Medicine' primarily because he:",
+      "options": [
+        { "text": "Discovered the circulation of blood through rigorous anatomical dissection", "isCorrect": false, "reason": "Blood circulation was discovered by William Harvey in 1628 CE; Hippocrates did not perform human dissection" },
+        { "text": "Eliminated supernatural elements from medicine and established systematic clinical observation, documentation, and case histories", "isCorrect": true, "reason": "PDF states Hippocrates 'eliminated supernatural elements from medicine, and used observations of the patient as the basis of medical knowledge and recorded case histories' and 'made the first systematic categorization of diseases'" },
+        { "text": "Developed the first surgical instruments including scalpels and rotary drills", "isCorrect": false, "reason": "Surgical instruments were developed later by Roman surgeons; Hippocrates focused on observation and diagnosis rather than surgery" },
+        { "text": "Authored De Materia Medica describing over 600 medicinal substances", "isCorrect": false, "reason": "De Materia Medica was authored by Pedanius Dioscorides (c. 40–90 AD), not Hippocrates" }
+      ],
+      "explanation": "Core contribution: Hippocrates' revolutionary shift was methodological—replacing divine causation with natural explanations and establishing systematic clinical documentation. While he didn't discover specific anatomical structures (dissection was taboo in his era), his emphasis on observation, prognosis ('crisis'), and ethical practice (Hippocratic Oath) created the foundation for scientific medicine."
+    },
+    {
+      "question": "The Four Humors theory in ancient Greek medicine proposed that health depended on balance among four bodily fluids. Which humor was associated with the heart, the element of air, spring season, and a cheerful/courageous personality?",
+      "options": [
+        { "text": "Yellow bile", "isCorrect": false, "reason": "Yellow bile was linked to fire, summer, gallbladder/liver, and hot-tempered personality" },
+        { "text": "Black bile", "isCorrect": false, "reason": "Black bile was linked to earth, autumn, spleen, and melancholic/depressed personality" },
+        { "text": "Phlegm", "isCorrect": false, "reason": "Phlegm was linked to water, winter, brain/lungs, and calm/unemotional personality" },
+        { "text": "Blood", "isCorrect": true, "reason": "PDF explicitly states blood was 'Linked to the element of air, the season of spring, and the heart' with personality traits of being 'courageous, cheerful, optimistic, sociable'" }
+      ],
+      "explanation": "Humoral associations: Each humor had a complex symbolic system connecting physiology, psychology, cosmology, and seasonality. Blood's association with air/spring reflected its perceived 'warm and moist' qualities and life-giving properties. This theory dominated Western medicine for 2,000 years until germ theory replaced it in the 1850s."
+    },
+    {
+      "question": "According to Greco-Roman medical theory, bloodletting was primarily performed to:",
+      "options": [
+        { "text": "Remove evil spirits believed to cause disease", "isCorrect": false, "reason": "Spirit expulsion was an earlier pre-Greek practice; bloodletting was a humoral therapy based on natural (not supernatural) causation" },
+        { "text": "Reduce excess blood humor when it became too plentiful and dominating, thereby rebalancing the four humors", "isCorrect": true, "reason": "PDF states: 'Greek physicians popularized blood-letting as a treatment for many ailments. This was based on the concept that imbalance in the four humors causes illness. If the blood humor became too plentiful and dominating, it had to be removed.'" },
+        { "text": "Prevent infection in surgical wounds by reducing blood flow", "isCorrect": false, "reason": "While Romans used honey/alcohol for wound antisepsis, bloodletting was not primarily an antiseptic technique but a systemic humoral therapy" },
+        { "text": "Treat anemia by stimulating bone marrow production", "isCorrect": false, "reason": "This represents modern understanding; ancient physicians had no concept of bone marrow or erythropoiesis" }
+      ],
+      "explanation": "Therapeutic rationale: Bloodletting exemplifies humoral medicine's internal logic—excess of any humor caused disease, so removal restored balance. Though ultimately ineffective for most conditions, this represented a shift toward physiological (rather than spiritual) disease models. Cupping vessels (like the 79 CE Pompeii example) were common bloodletting tools."
+    },
+    {
+      "question": "Herophilus (335–289 BC) made a groundbreaking contribution to medicine by:",
+      "options": [
+        { "text": "Developing the first pharmacopeia describing 600+ medicinal substances", "isCorrect": false, "reason": "This was Pedanius Dioscorides' contribution in De Materia Medica" },
+        { "text": "Being the first anatomist to dissect and study human bodies, accurately describing the brain, nerves, eye, arteries, veins, and digestive organs", "isCorrect": true, "reason": "PDF explicitly states: 'Herophilus was the first anatomist who dissected and studied human bodies, and made the first accurate descriptions on the brain, nerves, eye, arteries and veins, and digestive organs'" },
+        { "text": "Discovering the circulation of blood through vivisection of animals", "isCorrect": false, "reason": "Blood circulation discovery came much later (William Harvey, 1628); Herophilus described vessels but not circulation dynamics" },
+        { "text": "Establishing the Hippocratic Oath as the ethical foundation for physicians", "isCorrect": false, "reason": "Hippocratic Oath predates Herophilus and is attributed to Hippocrates' school" }
+      ],
+      "explanation": "Historical significance: Human dissection was taboo in most ancient cultures. Herophilus (working in Alexandria's unique intellectual environment) broke this barrier, producing anatomical descriptions unmatched for 1,500 years. His contemporary Erasistratus complemented this work by studying physiology (function) rather than just structure."
+    },
+    {
+      "question": "Asclepeions in ancient Greece (4th century BCE) were:",
+      "options": [
+        { "text": "Military field hospitals for treating wounded soldiers", "isCorrect": false, "reason": "Military hospitals developed later in Roman times; Asclepeions were religious healing centers" },
+        { "text": "Temples devoted to Asclepius (god of medicine) serving as places of refuge, rest, prayer, and healing", "isCorrect": true, "reason": "PDF states: 'Asclepeions (4th century BCE), temples devoted to the Greek god of medicine were places of refuge, rest, prayer, and healing'" },
+        { "text": "Medical schools teaching anatomy through human dissection", "isCorrect": false, "reason": "Formal medical schools with dissection came later; Asclepeions emphasized spiritual/ritual healing" },
+        { "text": "Public bathhouses promoting hygiene as disease prevention", "isCorrect": false, "reason": "Public baths were Roman innovations; Asclepeions were specifically religious healing sanctuaries" }
+      ],
+      "explanation": "Transitional institutions: Asclepeions represent medicine's transitional phase—still rooted in religious practice (dream incubation, temple sleep) but increasingly incorporating practical treatments. The Rod of Asclepius (single serpent around staff) remains medicine's symbol today, distinguishing it from the caduceus (Hermes' staff with two serpents)."
+    },
+    {
+      "question": "Pedanius Dioscorides (c. 40–90 AD) is known as the 'Father of Pharmacognosy' because he:",
+      "options": [
+        { "text": "Discovered penicillin mold's antibiotic properties through serendipitous observation", "isCorrect": false, "reason": "Penicillin was discovered by Alexander Fleming in 1928 CE" },
+        { "text": "Authored De Materia Medica, a five-volume compendium detailing over 600 substances including plants, animals, oils, wines, and minerals", "isCorrect": true, "reason": "PDF states: 'Pedanius Dioscorides is best known for his five-volume compendium, De Materia Medica (On Medical Matters) detailing the features and uses of more than 600 substances'" },
+        { "text": "Developed the first standardized dosing system using precise weight measurements", "isCorrect": false, "reason": "While Dioscorides described preparation methods, standardized dosing systems developed much later" },
+        { "text": "Established the first botanical garden for cultivating medicinal plants", "isCorrect": false, "reason": "Botanical gardens emerged in Renaissance Europe; Dioscorides documented wild and cultivated plants but didn't establish gardens" }
+      ],
+      "explanation": "Enduring influence: De Materia Medica remained medicine's primary pharmacological reference for over 1,500 years—longer than any other medical text in history. Its systematic organization by substance type (not disease) established pharmacognosy (study of medicinal drugs derived from natural sources) as a distinct discipline."
+    },
+    {
+      "question": "Galen (c. 129–216 CE) developed his influential medical theories primarily through:",
+      "options": [
+        { "text": "Human anatomical dissection in Alexandria's medical school", "isCorrect": false, "reason": "Human dissection was prohibited in Galen's era; he dissected animals (dogs, monkeys, pigs) instead" },
+        { "text": "Observing gladiators' wounds in Pergamon, combined with animal dissection (dogs and monkeys)", "isCorrect": true, "reason": "PDF states Galen made 'notes on the variability of wounds sustained by them in the gladiatorial games' and 'his findings had been gathered by dissecting dogs and monkeys'" },
+        { "text": "Studying Egyptian mummies to understand human anatomy", "isCorrect": false, "reason": "While mummies revealed disease patterns, Galen had no access to systematic mummy studies for anatomical research" },
+        { "text": "Traveling to India to learn Ayurvedic medicine techniques", "isCorrect": false, "reason": "Galen worked in Pergamon and Rome; no evidence suggests he traveled to India or directly incorporated Ayurveda" }
+      ],
+      "explanation": "Methodological limitation: Galen's animal dissections produced significant anatomical errors (e.g., assuming human livers had five lobes like dogs). Yet his comprehensive writings (Galenic Corpus) became medical orthodoxy for 1,300 years—demonstrating how authority could override empirical accuracy in pre-scientific medicine."
+    },
+    {
+      "question": "Roman contributions to public health that distinguished their medical system included all of the following EXCEPT:",
+      "options": [
+        { "text": "Introduction of clean drinking water systems and organized sanitation infrastructure", "isCorrect": false, "reason": "PDF explicitly lists this as a Roman contribution: 'Introduction of public health measures such as clean drinking water and organized sanitation'" },
+        { "text": "Promotion of general hygiene including bathing, exercise, and diet awareness", "isCorrect": false, "reason": "PDF explicitly lists: 'Awareness about the importance of general hygiene, including bathing, clean drinking water, exercise and diet'" },
+        { "text": "Establishment of the first military hospital in the 1st century BC", "isCorrect": false, "reason": "PDF explicitly mentions 'The first military hospital in the 1st century BC' as a Roman innovation" },
+        { "text": "Discovery of germ theory explaining microbial disease transmission", "isCorrect": true, "reason": "Germ theory wasn't established until the 19th century (Pasteur/Koch); Romans had no concept of microorganisms despite practicing quarantine for fevers" }
+      ],
+      "explanation": "Public health legacy: Romans excelled at engineering-based disease prevention (aqueducts, sewers, baths) without understanding microbial causation. Their empirical observation that cleanliness reduced disease—without knowing why—represents pragmatic public health that saved countless lives despite theoretical limitations."
+    },
+    {
+      "question": "The Hippocratic Oath established medicine as a trusted profession primarily by:",
+      "options": [
+        { "text": "Mandating government licensing and standardized examinations for all physicians", "isCorrect": false, "reason": "State licensing emerged millennia later; ancient Greece had no centralized medical regulation" },
+        { "text": "Creating a professional code of conduct emphasizing ethics, expertise, etiquette, and compassion", "isCorrect": true, "reason": "PDF states the Oath was 'A professional code of conduct... that set a high standard expertise and etiquette, and established medicine as a profession that ordinary people could trust' embodying 'the spirit of the respectable, ethical, moral, careful, clean, and compassionate physician'" },
+        { "text": "Requiring physicians to publish all case histories for peer review", "isCorrect": false, "reason": "While Hippocrates emphasized documentation, the Oath didn't mandate publication" },
+        { "text": "Prohibiting physicians from performing surgery to maintain specialization", "isCorrect": false, "reason": "The Oath actually prohibited specific procedures (like abortion/assisted suicide in some versions) but not surgery generally" }
+      ],
+      "explanation": "Ethical foundation: The Oath transformed medicine from a trade into a profession with moral obligations. Its emphasis on patient welfare ('do no harm'), confidentiality, and teacher-student respect created enduring professional norms. Modern versions (Declaration of Geneva) still echo its core principles despite updated content."
+    },
+    {
+      "question": "Roman surgical capabilities included all of the following procedures EXCEPT:",
+      "options": [
+        { "text": "Eye, nose, and ear surgery", "isCorrect": false, "reason": "PDF explicitly states 'Roman surgeons performed a range of operations, including eye, nose, and ear surgery'" },
+        { "text": "Extraction of gallstones and removal of tonsils", "isCorrect": false, "reason": "PDF explicitly lists these as Roman surgical procedures" },
+        { "text": "Cataract 'couching' using long slender needles", "isCorrect": false, "reason": "Cataract couching was practiced in Mesopotamia (per previous PDF); Romans likely adopted and refined this technique" },
+        { "text": "Open-heart surgery to repair cardiac valves", "isCorrect": true, "reason": "Open-heart surgery requires cardiopulmonary bypass technology developed in the 20th century; Romans lacked both anatomical understanding of heart function and technical capability for intrathoracic procedures" }
+      ],
+      "explanation": "Surgical boundaries: Roman surgery was remarkably advanced for superficial/accessible procedures (wound management, amputations, basic organ surgery) but remained limited by anesthesia constraints (opium/alcohol only) and lack of antisepsis understanding. Internal organ surgery beyond drainage (e.g., lung abscess) was beyond their capabilities."
+    },
+    {
+      "question": "A key conceptual shift in Greco-Roman medicine was the transition from viewing disease as:",
+      "options": [
+        { "text": "Caused by evil spirits to caused by bacterial infection", "isCorrect": false, "reason": "Bacterial theory came in the 19th century; Greco-Romans shifted to humoral/natural explanations, not microbial" },
+        { "text": "Punishment from gods to a natural phenomenon of the body caused by humoral imbalances", "isCorrect": true, "reason": "PDF states: 'Early Greek medicine was influenced by Egyptians, and diseases were viewed as some kind of punishments or even gifts from the gods' but later 'disease was seen more as a natural phenomenon or product of the body' with 'illness was a natural phenomenon of the body, caused by imbalances in what were known as the four humors'" },
+        { "text": "Result of poor hygiene to result of genetic inheritance", "isCorrect": false, "reason": "Genetic understanding is modern; hygiene awareness existed but wasn't the primary explanatory framework" },
+        { "text": "Caused by miasma (bad air) to caused by contaminated water", "isCorrect": false, "reason": "Miasma theory persisted through the 19th century; waterborne disease theory (cholera) emerged in 1854 with John Snow" }
+      ],
+      "explanation": "Paradigm shift significance: This transition—from supernatural to natural causation—represents medicine's most fundamental conceptual revolution. Though humoral theory was ultimately incorrect, its naturalistic framework enabled systematic observation, documentation, and therapeutic experimentation that spiritual models precluded."
+    },
+    {
+      "question": "Roman prosthetics demonstrated sophisticated craftsmanship through the creation of artificial body parts made from materials including:",
+      "options": [
+        { "text": "Wood, iron, silver, and gold for eyes, nose, teeth, arms, hands, legs, and feet", "isCorrect": true, "reason": "PDF explicitly states: 'There were many prostheses for the eyes, nose, teeth, arms, hands, legs, and feet, made of materials such as wood, iron, silver, and gold'" },
+        { "text": "Plastic polymers and titanium alloys for joint replacements", "isCorrect": false, "reason": "Synthetic materials are modern innovations; Romans used only natural/metallurgical materials available in antiquity" },
+        { "text": "Silicone rubber and carbon fiber for facial reconstruction", "isCorrect": false, "reason": "These are 20th-century materials; Roman prosthetics relied on metals, wood, ivory, and bone" },
+        { "text": "3D-printed biocompatible ceramics for dental implants", "isCorrect": false, "reason": "3D printing is a 21st-century technology; Romans fashioned dental bridges from gold wire and donor teeth" }
+      ],
+      "explanation": "Archaeological evidence: The Roman artificial leg (300 BCE) and dental bridges (gold wire with donor teeth) demonstrate both functional understanding (biomechanics) and aesthetic concern. While lacking modern materials science, Roman artisans achieved remarkable results through empirical craftsmanship—prosthetics were worn in life (not just burial), indicating functional utility."
+    },
+    {
+      "question": "Hippocrates' clinical methodology included systematic documentation of all the following EXCEPT:",
+      "options": [
+        { "text": "Regular notes on pulse, breathing, temperature, skin complexion, and appearance of eyes/mouth", "isCorrect": false, "reason": "PDF explicitly lists these as part of Hippocratic documentation" },
+        { "text": "Palpation of inner organs and observation of excretions", "isCorrect": false, "reason": "PDF explicitly states examinations 'included palpation of the inner organs, and observation on excretions'" },
+        { "text": "Microscopic examination of blood samples to identify pathogens", "isCorrect": true, "reason": "Microscopes weren't invented until the 17th century; Hippocrates relied on macroscopic observation only" },
+        { "text": "Concept of 'crisis' tracking disease progression including remission and relapse", "isCorrect": false, "reason": "PDF explicitly mentions 'Notion of crisis—observation that how sickness develops' including 'Remission' and 'Relapse'" }
+      ],
+      "explanation": "Methodological innovation: Hippocrates established clinical medicine's core practice—systematic observation and documentation without technological aids. His 'Hippocratic fingers' description (clubbing indicating lung/heart disease) demonstrates remarkable diagnostic acumen achievable through careful physical examination alone—a skill still valued in modern medicine despite advanced imaging."
+    },
+    {
+      "question": "Galen's humoral personality classifications included all of the following temperaments EXCEPT:",
+      "options": [
+        { "text": "Sanguine: active, creative, but impatient (associated with blood)", "isCorrect": false, "reason": "PDF explicitly lists this Galenic temperament" },
+        { "text": "Choleric: driven, passionate, but aggressive (associated with yellow bile)", "isCorrect": false, "reason": "PDF explicitly lists this Galenic temperament" },
+        { "text": "Melancholic: quiet, self-contained, but prone to sadness (associated with black bile)", "isCorrect": false, "reason": "PDF explicitly lists this Galenic temperament" },
+        { "text": "Optimistic: cheerful, resilient, but naive (associated with lymph)", "isCorrect": true, "reason": "Lymph was not part of the four humors system; the fourth humor was phlegm (calm, kind, but sluggish), not lymph or an 'optimistic' temperament" }
+      ],
+      "explanation": "Humoral psychology legacy: Galen's temperament theory profoundly influenced Western psychology for centuries. While modern personality psychology has abandoned humoral foundations, terms like 'sanguine,' 'choleric,' 'melancholic,' and 'phlegmatic' remain in English vocabulary—demonstrating the enduring cultural impact of Greco-Roman medical concepts."
+    },
+    {
+      "question": "Greco-Roman medicine represented a turning point in medical history primarily because it:",
+      "options": [
+        { "text": "Discovered antibiotics and vaccination techniques that eradicated major infectious diseases", "isCorrect": false, "reason": "Antibiotics (1928) and vaccination (1796) are modern innovations; Greco-Romans had no such technologies" },
+        { "text": "Established scientific understanding of human-nature interaction through naturalistic disease models, systematic observation, and documentation", "isCorrect": true, "reason": "PDF concludes: 'Greco-Roman medicine is a turning point in the history of medicine' representing 'Scientific understanding of human-nature interaction' through shift from supernatural to natural explanations" },
+        { "text": "Developed germ theory explaining microbial disease causation", "isCorrect": false, "reason": "Germ theory emerged in the 19th century; Greco-Romans had no concept of microorganisms" },
+        { "text": "Created the first universal healthcare system providing free medical care to all citizens", "isCorrect": false, "reason": "Universal healthcare is a modern concept; Roman military hospitals served soldiers, not civilians universally" }
+      ],
+      "explanation": "Historical significance: Greco-Roman medicine's true innovation was methodological—not specific discoveries. By establishing natural causation, systematic observation, documentation, and ethical practice, it created the intellectual framework that would eventually (after 2,000 years) enable modern scientific medicine. This represents medicine's most important conceptual foundation."
+    }
+  ]
+}

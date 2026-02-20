@@ -1,0 +1,156 @@
+{
+  "week": "W3",
+  "title": "The Medical Traditions of India and Middle East",
+  "questions": [
+    {
+      "question": "Ayurveda, meaning 'life knowledge', is a traditional Indian medical system that primarily emphasizes:",
+      "options": [
+        { "text": "Surgical intervention as the first-line treatment for all diseases", "isCorrect": false, "reason": "Surgery was important in Susruta Samhita but Ayurveda emphasizes holistic prevention and natural remedies first" },
+        { "text": "Natural and holistic approaches to physical and mental health through lifestyle, hygiene, diet, and herbal/mineral remedies", "isCorrect": true, "reason": "PDF states: 'Ayurveda relies on a natural and holistic approach to physical and mental health' and 'stresses the importance of preventing illness via hygiene, exercise, healthy diet, and healing with herbal and mineral remedies'" },
+        { "text": "Exclusively spiritual healing through meditation and prayer without physical treatments", "isCorrect": false, "reason": "While spiritual elements exist, Ayurveda combines practical treatments (herbs, diet, surgery) with holistic philosophy" },
+        { "text": "Germ theory and microbial disease causation centuries before Pasteur", "isCorrect": false, "reason": "Germ theory emerged in the 19th century; Ayurveda used dosha theory for disease explanation" }
+      ],
+      "explanation": "Core philosophy: Ayurveda represents one of history's earliest comprehensive holistic medical systems. Its emphasis on prevention through lifestyle/diet distinguishes it from purely interventionist approaches. Though lacking modern microbiological understanding, its empirical observations about diet-disease relationships remain relevant today."
+    },
+    {
+      "question": "The Susruta Samhita (c. 6th century BCE) is historically significant primarily because it:",
+      "options": [
+        { "text": "Describes over 8,400 verses on internal medicine and body treatment (Kaya-chikitsa)", "isCorrect": false, "reason": "This describes the Charaka Samhita; Susruta focused on surgery" },
+        { "text": "Contains detailed instructions on surgical procedures including cataract removal, hernia repair, bone setting, and early descriptions of C-section", "isCorrect": true, "reason": "PDF states Susruta Samhita 'contains information on Ayurvedic surgery' including 'cataract removal, repairing hernias, setting broken bones' and procedures like 'venesection and c-section'" },
+        { "text": "Introduces the concept of pulmonary circulation 350 years before William Harvey", "isCorrect": false, "reason": "Pulmonary circulation was discovered by Ibn al-Nafis (13th century), not Susruta" },
+        { "text": "First distinguishes between smallpox and measles as separate diseases", "isCorrect": false, "reason": "This distinction was made by Al-Rhazi (9th–10th century CE), not Susruta" }
+      ],
+      "explanation": "Surgical legacy: Susruta's text represents the world's earliest comprehensive surgical treatise. His descriptions of over 1,000 medical conditions and surgical techniques (including rhinoplasty using forehead flaps) remained unsurpassed for centuries. The text also details surgical instruments and management of complications like bleeding—demonstrating remarkable sophistication for its era."
+    },
+    {
+      "question": "According to Ayurvedic theory, the three doshas (Vata, Pitta, Kapha) are derived from combinations of which five fundamental elements?",
+      "options": [
+        { "text": "Earth, water, fire, air, and ether (space)", "isCorrect": true, "reason": "PDF explicitly states: 'Central to the concept of Ayurveda are the five elements—namely jala or ap (water), tejas or agni (fire), privthi or bhumi (earth), pavana or vayu (air), and akasha (ether or space)'" },
+        { "text": "Blood, yellow bile, black bile, and phlegm", "isCorrect": false, "reason": "These are the four humors of Greco-Roman medicine, not Ayurvedic elements" },
+        { "text": "Yin, yang, qi, jing, and shen", "isCorrect": false, "reason": "These are concepts from Traditional Chinese Medicine, not Ayurveda" },
+        { "text": "Carbon, hydrogen, oxygen, nitrogen, and sulfur", "isCorrect": false, "reason": "These are modern chemical elements unknown to ancient medical systems" }
+      ],
+      "explanation": "Conceptual framework: The five elements (Pancha Mahabhuta) form Ayurveda's cosmological foundation. Vata combines air+space (governing movement), Pitta combines fire+water (governing metabolism), and Kapha combines earth+water (governing structure). This elemental-dosha system differs fundamentally from Greco-Roman humoral theory despite superficial similarities in having three/four bodily principles."
+    },
+    {
+      "question": "In Ayurvedic medicine, 'srotas' refer to:",
+      "options": [
+        { "text": "Sacred healing chants recited during treatment rituals", "isCorrect": false, "reason": "Chants exist in Ayurveda but 'srotas' specifically means channels/pores" },
+        { "text": "Channels or pores through which doshas flow, carrying energy, nutrients, waste, and information throughout the body", "isCorrect": true, "reason": "PDF states: 'The doshas flow or move around the body through pores known as srotas, which carry energy, nutrients, waste, learning, information, and wisdom'" },
+        { "text": "Medicinal herbs grown in temple gardens for priest-physicians", "isCorrect": false, "reason": "Herbs are important but not called 'srotas'" },
+        { "text": "Surgical instruments used for bloodletting and wound drainage", "isCorrect": false, "reason": "Surgical tools existed but 'srotas' refers to physiological channels, not instruments" }
+      ],
+      "explanation": "Physiological concept: Srotas represent Ayurveda's sophisticated understanding of bodily transport systems—anticipating modern concepts of circulatory, lymphatic, and nervous systems. The classification includes 3 external srotas (air/food/water), 7 tissue srotas, 3 waste srotas, 2 female-specific srotas, and 1 mental srota—demonstrating systematic anatomical-physiological thinking."
+    },
+    {
+      "question": "Charaka (c. 100–200 CE) is known as the 'Father of Ayurvedic Medicine' primarily because he:",
+      "options": [
+        { "text": "Authored the Susruta Samhita detailing surgical techniques and instruments", "isCorrect": false, "reason": "Susruta Samhita was authored by Susruta (800–700 BCE), not Charaka" },
+        { "text": "Compiled the Charaka Samhita, an 8-section, 120+ chapter text with 8,400 verses focused on internal medicine (Kaya-chikitsa)", "isCorrect": true, "reason": "PDF states Charaka Samhita has '8 sections—more than 120 chapters, 8,400 verses' dealing mainly with 'Kaya-chikitsa – body treatment or internal medicine'" },
+        { "text": "Discovered pulmonary circulation and described the heart-lung blood pathway", "isCorrect": false, "reason": "Pulmonary circulation was discovered by Ibn al-Nafis (13th century), not Charaka" },
+        { "text": "First distinguished smallpox from measles through clinical observation", "isCorrect": false, "reason": "This distinction was made by Al-Rhazi (9th–10th century), not Charaka" }
+      ],
+      "explanation": "Textual authority: Charaka Samhita became Ayurveda's foundational text for internal medicine—complementing Susruta's surgical focus. Its systematic organization (8 sections, 120+ chapters) and emphasis on diagnosis, lifestyle, and minimally invasive treatments (diet/exercise over surgery) established enduring principles for holistic patient care."
+    },
+    {
+      "question": "Al-Rhazi (c. 866–925 CE) made a groundbreaking clinical contribution by:",
+      "options": [
+        { "text": "Discovering pulmonary circulation 350 years before William Harvey", "isCorrect": false, "reason": "Pulmonary circulation was discovered by Ibn al-Nafis, not Al-Rhazi" },
+        { "text": "Being the first physician to clinically distinguish between smallpox and measles as separate diseases", "isCorrect": true, "reason": "PDF explicitly states: 'Al-Rhazi was probably the first physician to record the distinction between the terrible scourge of smallpox and the less deadly but still debilitating measles'" },
+        { "text": "Authoring the Canon of Medicine (Al-Qanun fi al-Tibb), the standard medical textbook for centuries", "isCorrect": false, "reason": "The Canon was authored by Ibn Sina (Avicenna), not Al-Rhazi" },
+        { "text": "Pioneering over 200 surgical instruments illustrated in Kitab at-Tasrif", "isCorrect": false, "reason": "Surgical instruments were pioneered by Al-Zahrawi, not Al-Rhazi" }
+      ],
+      "explanation": "Diagnostic innovation: Distinguishing smallpox (high mortality, pustular rash) from measles (lower mortality, maculopapular rash) represented a crucial advance in infectious disease classification. Al-Rhazi's clinical acumen—documented in Kitab al-Hawi (Comprehensive Book)—combined classical knowledge with original observation, establishing him as a pioneer of evidence-based diagnosis."
+    },
+    {
+      "question": "Ibn al-Nafis (1213–1288 CE) is historically significant for:",
+      "options": [
+        { "text": "Authoring the Canon of Medicine that became Europe's standard medical textbook", "isCorrect": false, "reason": "The Canon was authored by Ibn Sina (Avicenna)" },
+        { "text": "Discovering pulmonary circulation—the pathway of blood from heart to lungs and back—350 years before William Harvey", "isCorrect": true, "reason": "PDF states: 'Ibn al-Nafis, Father of Circulatory Physiology... discovery of human blood circulation in the 13th Century. 350 years before William Harvey... First to describe the pulmonary circulation'" },
+        { "text": "Compiling an alphabetical compendium of hundreds of herbal medicines", "isCorrect": false, "reason": "This was Ibn al-Baytar's contribution" },
+        { "text": "Pioneering surgical instruments and describing hereditary hemophilia", "isCorrect": false, "reason": "These were Al-Zahrawi's contributions" }
+      ],
+      "explanation": "Historical priority: Ibn al-Nafis correctly described pulmonary circulation—blood flowing from right ventricle to lungs (not through invisible heart pores as Galen claimed), oxygenating there, then returning to left ventricle. His manuscript remained unknown in Europe until the 20th century, so Harvey independently rediscovered it in 1628. This represents one of history's clearest cases of scientific priority being lost due to cultural barriers."
+    },
+    {
+      "question": "The Canon of Medicine (Al-Qanun fi al-Tibb) by Ibn Sina (Avicenna, c. 980–1037 CE) became the standard medical textbook in Europe primarily because it:",
+      "options": [
+        { "text": "Introduced germ theory and microbial disease causation", "isCorrect": false, "reason": "Germ theory emerged in the 19th century; Avicenna worked within humoral/dosha frameworks" },
+        { "text": "Provided a comprehensive, systematically organized synthesis of ancient medical knowledge with contemporary clinical observations across five volumes", "isCorrect": true, "reason": "PDF states the Canon had 5 volumes covering: 1) health/sickness origins & anatomy, 2) 700+ drugs, 3) disease diagnosis/treatment by body part, 4) systemic conditions (fevers, fractures, obesity), 5) medicinal preparation. It 'selected, summarized, and extended the medical knowledge of the ancients'" },
+        { "text": "Described surgical techniques using over 200 illustrated instruments", "isCorrect": false, "reason": "Surgical instrument illustrations were Al-Zahrawi's contribution in Kitab at-Tasrif" },
+        { "text": "First documented the use of quarantine to prevent disease spread", "isCorrect": false, "reason": "Quarantine practices existed earlier in Mesopotamia and during plague outbreaks" }
+      ],
+      "explanation": "Encyclopedic scope: The Canon's enduring influence (used in European universities until 17th century) stemmed from its systematic organization and comprehensiveness—not revolutionary new discoveries. By synthesizing Greek, Roman, Persian, Indian, and Arabic knowledge into a single accessible reference, Avicenna created medicine's first true encyclopedia, bridging ancient and medieval medical traditions."
+    },
+    {
+      "question": "Al-Zahrawi (936–1013 CE) earned the title 'Father of Surgery' primarily because he:",
+      "options": [
+        { "text": "Discovered pulmonary circulation and corrected Galen's errors about heart anatomy", "isCorrect": false, "reason": "This was Ibn al-Nafis' contribution" },
+        { "text": "Authored Kitab at-Tasrif containing the first illustrations of over 200 surgical instruments and pioneered new procedures", "isCorrect": true, "reason": "PDF states: 'Al-Zahrawi, Father of Surgery—pioneered new procedures and provided the first illustrations of more than 200 surgical instruments in Kitab at-Tasrif'" },
+        { "text": "First distinguished smallpox from measles through careful clinical observation", "isCorrect": false, "reason": "This was Al-Rhazi's contribution" },
+        { "text": "Compiled an alphabetical pharmacopeia of herbal medicines still used today", "isCorrect": false, "reason": "This was Ibn al-Baytar's contribution" }
+      ],
+      "explanation": "Surgical innovation: Al-Zahrawi's Kitab at-Tasrif (Method of Medicine) revolutionized surgery through practical innovation—not theoretical breakthroughs. His illustrated instruments (forceps, scalpels, specula) established standardized toolkits. He also first described hereditary hemophilia (noting males affected through maternal line) and ectopic pregnancy—demonstrating keen clinical observation alongside technical skill."
+    },
+    {
+      "question": "In Ayurvedic theory, an excess of Vata dosha (air + space elements) typically manifests as:",
+      "options": [
+        { "text": "Digestive problems including abdominal cramps, constipation, and flatulence", "isCorrect": false, "reason": "These symptoms indicate excess Pitta (fire + water), not Vata" },
+        { "text": "Mucus-related problems such as lung ailments, coughing, and breathing difficulties", "isCorrect": false, "reason": "These indicate excess Kapha (earth + water), not Vata" },
+        { "text": "Mental and physical instability including dryness, coldness, and roughness", "isCorrect": true, "reason": "PDF explicitly states: 'Excessive Vata causes mental and physical instability – dryness, coldness, roughness'" },
+        { "text": "Fever, inflammation, and excessive sweating", "isCorrect": false, "reason": "These indicate excess Pitta's 'hot' qualities, not Vata" }
+      ],
+      "explanation": "Dosha symptomatology: Each dosha's elemental composition determines its pathological manifestations. Vata's air/space qualities produce instability/dryness; Pitta's fire/water produces heat/inflammation; Kapha's earth/water produces heaviness/mucus. This symptom-dosha mapping enabled Ayurvedic physicians to tailor treatments (e.g., warming oils for Vata excess) based on constitutional diagnosis."
+    },
+    {
+      "question": "The Islamic Golden Age of medicine (8th–13th centuries) was characterized by all of the following EXCEPT:",
+      "options": [
+        { "text": "Pioneering hospitals with organized wards, inpatient/outpatient services, and dedicated nursing care", "isCorrect": false, "reason": "PDF explicitly lists these as features of Islamic hospitals from the 9th century onward" },
+        { "text": "Comprehensive medical education combining basic sciences (anatomy, physiology) with clinical hospital training", "isCorrect": false, "reason": "PDF states physicians undertook 'basic scientific learning' plus 'clinical training at hospitals: conducting physical examinations, taking patient notes'" },
+        { "text": "Discovery of germ theory explaining microbial disease transmission", "isCorrect": true, "reason": "Germ theory wasn't established until the 19th century (Pasteur/Koch); Islamic physicians understood contagion empirically but lacked microbiological knowledge" },
+        { "text": "Advances in pharmacology including systematic testing of new drugs and alphabetical compendiums of remedies", "isCorrect": false, "reason": "PDF describes Ibn al-Baytar's alphabetical compendium and general pharmacological advances during this period" }
+      ],
+      "explanation": "Historical boundaries: Islamic medicine achieved remarkable sophistication in clinical observation, hospital organization, and pharmacology—yet remained constrained by pre-microbiological understanding. Physicians like Al-Rhazi recognized contagion (practicing quarantine for fevers) without knowing pathogens existed. This empirical-practical excellence without theoretical microbiology represents the pinnacle of pre-scientific medicine."
+    },
+    {
+      "question": "According to Ayurvedic medicine, 'agni' refers to:",
+      "options": [
+        { "text": "A sacred fire ritual performed before surgical procedures", "isCorrect": false, "reason": "While fire rituals existed culturally, 'agni' in medical context means digestive/metabolic capacity" },
+        { "text": "The body's ability for metabolic and digestive processes—including food digestion, waste elimination, and assimilation of experiences", "isCorrect": true, "reason": "PDF states: 'Agni: body's ability for metabolic and digestive processes' including 'To digest food efficiently', 'To prepare and burn off waste products', and 'To process and assimilate learning, life experiences, and memories'" },
+        { "text": "A surgical cauterization technique using heated metal instruments", "isCorrect": false, "reason": "Cauterization existed but wasn't called 'agni' in this technical sense" },
+        { "text": "The fire element exclusively associated with Pitta dosha", "isCorrect": false, "reason": "While agni relates to fire element and Pitta, it specifically denotes metabolic capacity—not just the elemental component" }
+      ],
+      "explanation": "Holistic metabolism: Agni represents Ayurveda's sophisticated understanding of metabolism as extending beyond physical digestion to include mental/emotional processing. Strong agni = efficient transformation of food/experiences into energy/wisdom; weak agni = accumulation of toxins (ama) causing disease. This mind-body integration distinguishes Ayurveda from purely physical medical models."
+    },
+    {
+      "question": "Ibn al-Baytar (1197–1248 CE) made his primary contribution to medicine through:",
+      "options": [
+        { "text": "Discovering pulmonary circulation and correcting Galenic anatomy", "isCorrect": false, "reason": "This was Ibn al-Nafis' contribution" },
+        { "text": "Distinguishing smallpox from measles and advancing preventive medicine concepts", "isCorrect": false, "reason": "This was Al-Rhazi's contribution" },
+        { "text": "Publishing Al-Kitab al-Jami, an alphabetically organized compendium of hundreds of herbal medicines and remedies", "isCorrect": true, "reason": "PDF states: 'Ibn al-Baytar... Published a ground-breaking compendium on herbalism... Al-Kitab 'l-jami'... Alphabetically listed hundreds of herbal medicines and remedies'" },
+        { "text": "Illustrating over 200 surgical instruments and describing hereditary hemophilia", "isCorrect": false, "reason": "These were Al-Zahrawi's contributions" }
+      ],
+      "explanation": "Pharmacological organization: Ibn al-Baytar's alphabetical arrangement revolutionized pharmacopeia usability—enabling rapid lookup of remedies by plant name rather than disease symptom. His compendium synthesized Greek, Arabic, and Andalusian botanical knowledge, becoming Europe's primary herbal reference after Latin translation. This systematic organization anticipated modern evidence-based pharmacology databases."
+    },
+    {
+      "question": "The Bower Manuscript, one of the texts contributing to Ayurvedic knowledge, notably begins with a description of which medicinal herb?",
+      "options": [
+        { "text": "Turmeric (Curcuma longa)", "isCorrect": false, "reason": "Turmeric is important in Ayurveda but not specified as the Bower Manuscript's opening herb" },
+        { "text": "Neem (Azadirachta indica)", "isCorrect": false, "reason": "Neem is used in Ayurveda but not mentioned as the Bower Manuscript's opening herb" },
+        { "text": "Garlic (Allium sativum)", "isCorrect": true, "reason": "PDF explicitly states: 'One of the herbs cited at the start of the Bower Manuscript is garlic (lahsun or lasuna), Allium sativum'" },
+        { "text": "Ashwagandha (Withania somnifera)", "isCorrect": false, "reason": "Ashwagandha is a key Ayurvedic adaptogen but not specified as the Bower Manuscript's opening herb" }
+      ],
+      "explanation": "Historical documentation: The Bower Manuscript (named after British officer Hamilton Bower who discovered it) provides crucial evidence of early Ayurvedic pharmacology. Garlic's prominence reflects its multifunctional properties recognized across ancient medical systems—antimicrobial, cardiovascular, and digestive benefits documented millennia before modern science confirmed allicin's mechanisms."
+    },
+    {
+      "question": "A key difference between Greco-Roman humoral theory and Ayurvedic dosha theory is that:",
+      "options": [
+        { "text": "Humoral theory recognized four bodily fluids while dosha theory recognizes three constitutional principles derived from five elements", "isCorrect": true, "reason": "PDF shows Greco-Roman medicine had four humors (blood, yellow bile, black bile, phlegm) while Ayurveda has three doshas (Vata, Pitta, Kapha) derived from five elements (earth, water, fire, air, ether)" },
+        { "text": "Humoral theory emphasized surgery while dosha theory prohibited all surgical intervention", "isCorrect": false, "reason": "Both systems included surgery—Susruta Samhita details extensive surgical procedures; Roman surgeons also performed operations" },
+        { "text": "Humoral theory was purely spiritual while dosha theory was purely materialistic", "isCorrect": false, "reason": "Both integrated spiritual and material elements—neither was purely one or the other" },
+        { "text": "Humoral theory originated in India while dosha theory originated in Greece", "isCorrect": false, "reason": "Humoral theory originated in Greece (Hippocrates/Galen); dosha theory originated in India (Ayurveda)" }
+      ],
+      "explanation": "Conceptual comparison: Though both systems used bodily fluids/principles to explain health/disease, their structures differed fundamentally. Four humors mapped to four elements/seasons; three doshas mapped to five elements in paired combinations. Both persisted for millennia until germ theory displaced them—demonstrating how coherent (though incorrect) explanatory frameworks can dominate medicine across cultures when they enable systematic diagnosis/treatment."
+    }
+  ]
+}

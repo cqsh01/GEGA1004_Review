@@ -1,0 +1,156 @@
+{
+  "week": "W5",
+  "title": "Renaissance: The Rise of Scientific Medicine-II",
+  "questions": [
+    {
+      "question": "William Harvey (1578–1657) is historically significant because he:",
+      "options": [
+        { "text": "Discovered the pulmonary circulation 350 years before anyone else", "isCorrect": false, "reason": "Pulmonary circulation was first described by Ibn al-Nafis in the 13th century; Harvey discovered the complete double circulation system" },
+        { "text": "Provided the first accurate description of blood circulation, proving the double circulatory system through rigorous experimentation", "isCorrect": true, "reason": "PDF states: 'In 1628, as a chief physician at St. Bartholomew's Hospital, London, William Harvey proved the double circulatory system' and 'In his seminal book De Motu Cordis... he introduced the idea of a pulmonary circulation pumped from the heart's right side to the left, via the lungs; and a systemic circulation pumped from the heart's left side around the body and back to the right'" },
+        { "text": "Invented the microscope for observing blood cells", "isCorrect": false, "reason": "Microscopes were invented by Zacharias Janssen in the 1590s; Harvey worked with naked-eye dissection and experimentation" },
+        { "text": "Discovered bacteria as the cause of infectious diseases", "isCorrect": false, "reason": "Bacteria were discovered by Antoni van Leeuwenhoek in the 1670s; germ theory wasn't established until the 19th century" }
+      ],
+      "explanation": "Methodological breakthrough: Harvey's true innovation was his rigorous experimental approach—conducting dissections and experiments on humans and over 60 animal species over 20 years. His quantitative reasoning (calculating that the heart pumps more blood in an hour than the body's total weight) proved circulation was necessary, overturning Galen's 'ebb and flow' theory that had dominated for 1,400 years."
+    },
+    {
+      "question": "Before William Harvey's discovery, the prevailing theory of blood movement was:",
+      "options": [
+        { "text": "Blood circulated continuously through arteries and veins in a closed loop", "isCorrect": false, "reason": "This was Harvey's discovery, not the prevailing pre-Harvey theory" },
+        { "text": "Blood slowly ebbed and flowed in vessels (the 'ebb and flow' theory) rather than circulating", "isCorrect": true, "reason": "PDF states: 'Blood was not seen to circulate but rather to slowly ebb and flow (the ebb and flow theory)' in Vesalius' time" },
+        { "text": "Blood was produced in the liver and consumed by tissues without returning", "isCorrect": false, "reason": "While Galen believed blood was made in the liver, he also believed it was consumed by tissues; the 'ebb and flow' concept better captures the pre-circulation understanding" },
+        { "text": "Blood moved through invisible pores between arteries and veins", "isCorrect": false, "reason": "Galen proposed pores in the heart septum, not between arteries and veins; this was one aspect of his incorrect theory" }
+      ],
+      "explanation": "Conceptual limitation: The 'ebb and flow' theory reflected limited understanding of cardiovascular physiology. Without quantitative measurement or experimental verification, physicians accepted Galen's authority for centuries. Harvey's mathematical approach (calculating cardiac output) was revolutionary because it used numbers to disprove established dogma."
+    },
+    {
+      "question": "Ibn al-Nafis (1210–1288) made a crucial contribution to understanding circulation by:",
+      "options": [
+        { "text": "Discovering the complete double circulation system including systemic circulation", "isCorrect": false, "reason": "Ibn al-Nafis described pulmonary circulation only; systemic circulation was Harvey's contribution" },
+        { "text": "Challenging Galen's notion of tiny pores in the heart septum and first describing pulmonary circulation in the 13th century", "isCorrect": true, "reason": "PDF states: 'Arabic physician Ibn al-Nafis (1210–1288) challenged the notion of tiny pores in the heart and first discovered pulmonary circulation in the 13th Century'" },
+        { "text": "Inventing the ligature technique for studying blood flow in veins", "isCorrect": false, "reason": "Ligature experiments were Harvey's method; Ibn al-Nafis worked theoretically without experimental verification" },
+        { "text": "Discovering capillaries connecting arteries and veins", "isCorrect": false, "reason": "Capillaries were discovered by Marcello Malpighi in 1661; Ibn al-Nafis described pulmonary circulation theoretically without microscopic evidence" }
+      ],
+      "explanation": "Historical priority and obscurity: Ibn al-Nafis correctly described pulmonary circulation 350 years before Harvey, but his manuscript remained unknown in Europe until the 20th century. This represents one of history's clearest cases of scientific discovery being lost due to cultural/linguistic barriers—demonstrating how knowledge transmission is as crucial as discovery itself."
+    },
+    {
+      "question": "Marcello Malpighi (1628–1694) completed Harvey's circulatory theory by:",
+      "options": [
+        { "text": "Discovering capillaries between tiny arteries and veins in 1661, completing the circulation pathway", "isCorrect": true, "reason": "PDF states: 'In 1661, Italian scientist Marcello Malpighi identified capillaries between the tiny arteries and veins which complete the circulation'" },
+        { "text": "Inventing the first mechanical heart pump", "isCorrect": false, "reason": "Mechanical heart pumps are modern inventions; Malpighi worked with microscopy and anatomical observation" },
+        { "text": "Discovering the electrical conduction system of the heart", "isCorrect": false, "reason": "Electrical conduction was discovered much later; Malpighi focused on anatomical structures visible under microscope" },
+        { "text": "Proving that blood cells carry oxygen", "isCorrect": false, "reason": "Oxygen transport by blood cells wasn't understood until the 18th–19th centuries; Malpighi identified capillaries but not their functional role" }
+      ],
+      "explanation": "Microscopic confirmation: Harvey predicted capillaries must exist to connect arteries and veins, but couldn't see them with naked-eye dissection. Malpighi's microscope revealed these tiny vessels, providing the missing anatomical link that validated Harvey's theoretical circulation model. This exemplifies how technological advances (microscopy) enable theoretical predictions to be confirmed."
+    },
+    {
+      "question": "Thomas Sydenham (1624–1689) is known as the 'English Hippocrates' primarily because he:",
+      "options": [
+        { "text": "Discovered the circulation of blood through experimental methods", "isCorrect": false, "reason": "Blood circulation was Harvey's discovery; Sydenham focused on disease classification and clinical observation" },
+        { "text": "Emphasized careful clinical observation and was the first to describe and classify specific diseases as distinct entities", "isCorrect": true, "reason": "PDF states Sydenham was 'credited with describing and defining specific diseases, as well as the emphasis of clinical observations' and 'was influential in depicting and classifying \"species\" of diseases, which greatly improved medical diagnosis'" },
+        { "text": "Invented the microscope for medical research", "isCorrect": false, "reason": "Microscopes were invented earlier by Janssen; Sydenham worked with clinical observation, not microscopy" },
+        { "text": "Developed the first successful vaccine against smallpox", "isCorrect": false, "reason": "Smallpox vaccine was developed by Edward Jenner in 1796; Sydenham worked in the 17th century" }
+      ],
+      "explanation": "Clinical methodology: Sydenham's approach—carefully observing and documenting disease symptoms to create distinct disease categories—established modern clinical medicine. His famous quote, 'A patient's symptoms were not the effect of the disease, but the body's struggle to overcome the disease,' reflected his holistic understanding of illness as a dynamic process rather than static condition."
+    },
+    {
+      "question": "Thomas Sydenham's contributions to disease classification included the first detailed descriptions of all the following conditions EXCEPT:",
+      "options": [
+        { "text": "Rheumatic fever and Sydenham's chorea (dance-like movements)", "isCorrect": false, "reason": "PDF explicitly lists these among Sydenham's disease descriptions" },
+        { "text": "Scarlet fever (scarlatina) and measles", "isCorrect": false, "reason": "PDF explicitly lists these among Sydenham's disease descriptions" },
+        { "text": "Dysentery", "isCorrect": false, "reason": "PDF explicitly lists dysentery among Sydenham's disease descriptions" },
+        { "text": "Tuberculosis and pulmonary embolism", "isCorrect": true, "reason": "While Sydenham described many diseases, tuberculosis was known since antiquity and pulmonary embolism wasn't well-described until later; PDF doesn't attribute these specific descriptions to Sydenham" }
+      ],
+      "explanation": "Historical context: Sydenham's disease descriptions were groundbreaking because they distinguished conditions previously lumped together. For example, he differentiated scarlet fever from measles and described Sydenham's chorea as a distinct post-streptococcal complication. His systematic approach laid groundwork for modern nosology (disease classification)."
+    },
+    {
+      "question": "Sydenham's therapeutic recommendations included all of the following EXCEPT:",
+      "options": [
+        { "text": "Fresh air, exercise, and drinking beer in moderation", "isCorrect": false, "reason": "PDF explicitly lists these as part of Sydenham's prescription" },
+        { "text": "Herbalism, such as willow leaf juice to treat fever", "isCorrect": false, "reason": "PDF explicitly mentions willow leaf juice for fever treatment" },
+        { "text": "Introduction of quinine in Europe to treat malaria in the 1630s", "isCorrect": false, "reason": "PDF explicitly states Sydenham introduced quinine for malaria treatment" },
+        { "text": "Routine bloodletting for all febrile conditions", "isCorrect": true, "reason": "While bloodletting was common in Sydenham's era, PDF emphasizes his gentler, more specific approaches (willow, quinine, laudanum) rather than universal bloodletting" }
+      ],
+      "explanation": "Therapeutic innovation: Sydenham moved away from aggressive interventions (like universal bloodletting) toward specific, evidence-based treatments. His use of quinine for malaria and willow for fever represented targeted therapy based on observed effectiveness—not theoretical humoral balancing. Laudanum (opium in wine/water) became a standard analgesic for centuries."
+    },
+    {
+      "question": "Ancient Indian techniques for rhinoplasty (nose reconstruction) described in the Susruta Samhita involved:",
+      "options": [
+        { "text": "Transplanting patches of skin or whole noses from one individual to another", "isCorrect": true, "reason": "PDF states: 'Indian medical text Susruta Samhita first mentions nose repair after amputation: transplantation of patches of skin and even whole noses from one individual to another'" },
+        { "text": "Using synthetic polymers and 3D-printed scaffolds", "isCorrect": false, "reason": "Synthetic materials and 3D printing are modern innovations; ancient techniques used natural tissues only" },
+        { "text": "Injecting fillers to reshape nasal contours", "isCorrect": false, "reason": "Injectable fillers are modern cosmetic techniques; ancient rhinoplasty involved surgical reconstruction with tissue grafts" },
+        { "text": "Using laser technology to reshape cartilage", "isCorrect": false, "reason": "Lasers are 20th-century technology; ancient techniques relied on scalpels and manual suturing" }
+      ],
+      "explanation": "Historical significance: Susruta's rhinoplasty techniques (c. 6th century BCE) represent the world's earliest documented reconstructive surgery. The 'Indian flap' method—slicing skin from forehead/cheek and grafting it to the nose—remained unsurpassed for millennia. European surgeons later observed and adapted these techniques, demonstrating cross-cultural medical knowledge transfer."
+    },
+    {
+      "question": "The Italian method of rhinoplasty refined by Gaspare Tagliacozzi (1597) differed from the Indian method by:",
+      "options": [
+        { "text": "Using skin and flesh from the arm rather than the cheek or forehead, binding the arm to the head for 15–20 days before severing the flap", "isCorrect": true, "reason": "PDF states: 'Antonio Branca used skin and flesh from the arm rather than the cheek or forehead, binding the arm up against the head for 15–20 days before severing the skin flap'" },
+        { "text": "Using only synthetic materials instead of tissue grafts", "isCorrect": false, "reason": "Synthetic materials didn't exist in the 16th century; all reconstructive techniques used natural tissues" },
+        { "text": "Avoiding any tissue transfer and relying solely on suturing existing tissue", "isCorrect": false, "reason": "Both Indian and Italian methods involved tissue transfer; the difference was donor site location (forehead/cheek vs. arm)" },
+        { "text": "Using microscopic techniques for precise vascular anastomosis", "isCorrect": false, "reason": "Microsurgery and vascular anastomosis are 20th-century innovations; 16th-century techniques lacked this precision" }
+      ],
+      "explanation": "Technical evolution: Tagliacozzi's arm-flap technique represented an alternative approach to the Indian forehead-flap method. By using arm tissue, surgeons could reconstruct larger nasal defects, though the prolonged binding period (15–20 days) was uncomfortable for patients. Both methods relied on the body's ability to develop new blood supply to transferred tissue—a principle still used in modern reconstructive surgery."
+    },
+    {
+      "question": "The term 'plastic surgery' was coined by:",
+      "options": [
+        { "text": "Susruta in the Susruta Samhita (6th century BCE)", "isCorrect": false, "reason": "Susruta described reconstructive techniques but didn't use the term 'plastic surgery'" },
+        { "text": "Gaspare Tagliacozzi in De Curtorum Chirurgia per Insitionem (1597)", "isCorrect": false, "reason": "Tagliacozzi pioneered techniques but didn't coin the term; he's called a 'founder of plastic surgery' retrospectively" },
+        { "text": "Karl Ferdinand von Gräfe in his 1818 report 'Rhinoplastik'", "isCorrect": true, "reason": "PDF states: 'In 1818, German surgeon Karl Ferdinand von Gräfe's report Rhinoplastik, which improved upon older techniques – the term plastic surgery'" },
+        { "text": "Thomas Sydenham in Methodus curandi febres (1666)", "isCorrect": false, "reason": "Sydenham focused on disease classification and internal medicine, not surgical terminology" }
+      ],
+      "explanation": "Etymology: The term 'plastic' comes from Greek 'plastikos' meaning 'to mold or shape.' Von Gräfe's 1818 report formalized this terminology, distinguishing reconstructive procedures that reshape tissue from other surgical interventions. This linguistic innovation helped establish plastic surgery as a distinct medical specialty."
+    },
+    {
+      "question": "The compound microscope, invented in the 1590s, began to be used for medical research approximately:",
+      "options": [
+        { "text": "Immediately after its invention in the 1590s", "isCorrect": false, "reason": "PDF states it 'only began to be used for medical research half a century after its invention'" },
+        { "text": "Half a century after its invention (around the 1640s–1650s)", "isCorrect": true, "reason": "PDF explicitly states: 'The compound microscope on the other hand, invented in the 1590s, only began to be used for medical research half a century after its invention'" },
+        { "text": "Two centuries after its invention (18th century)", "isCorrect": false, "reason": "Microscopes were used medically by the mid-17th century, not two centuries later" },
+        { "text": "Three centuries after its invention (19th century)", "isCorrect": false, "reason": "Microscopes were well-established in medical research by the 17th century; 19th-century advances built on earlier work" }
+      ],
+      "explanation": "Technology adoption lag: The 50-year delay between microscope invention and medical application illustrates how technological innovations often precede their revolutionary uses. Early microscopes had limited magnification and clarity; it took decades of refinement and pioneering researchers (Hooke, Leeuwenhoek) to demonstrate their medical value. This pattern repeats throughout history—tools exist before their transformative applications are discovered."
+    },
+    {
+      "question": "Antoni van Leeuwenhoek (1632–1723) is historically significant because he:",
+      "options": [
+        { "text": "Invented the first compound microscope with multiple lenses", "isCorrect": false, "reason": "Compound microscopes were invented by Zacharias Janssen in the 1590s; Leeuwenhoek used single-lens microscopes" },
+        { "text": "Devised an unusual microscope using a single, almost spherical lens and was the first to observe single-cell organisms (animalcules)", "isCorrect": true, "reason": "PDF states: 'In 1673, Dutch Antoni van Leeuwenhoek devised an unusual microscope using a single, almost spherical lens to observe, describe, and draw a range of biological specimens; animalcules, blood cells, sperm cells, and the banding patterns of skeletal muscle—the first person who observed a single cell organism'" },
+        { "text": "Discovered the circulation of blood through microscopic observation", "isCorrect": false, "reason": "Blood circulation was discovered by Harvey using macroscopic methods; Leeuwenhoek observed blood cells but not circulation dynamics" },
+        { "text": "First used the term 'cell' to describe microscopic structures", "isCorrect": false, "reason": "Robert Hooke first used 'cell' in 1665; Leeuwenhoek observed but didn't name cellular structures" }
+      ],
+      "explanation": "Observational breakthrough: Leeuwenhoek's single-lens microscopes achieved remarkable magnification (up to 270x) despite their simplicity. His discovery of 'animalcules' (bacteria, protozoa) opened an entirely new world of microscopic life—though their disease-causing role wouldn't be understood for another 200 years. His meticulous drawings and descriptions established microscopy as a rigorous scientific method."
+    },
+    {
+      "question": "Robert Hooke (1635–1703) contributed to microscopy by:",
+      "options": [
+        { "text": "Inventing the first electron microscope for subcellular observation", "isCorrect": false, "reason": "Electron microscopes were invented in the 20th century; Hooke worked with light microscopes" },
+        { "text": "Publishing Micrographia in 1665 with detailed drawings of microscopic objects and first using the term 'cell'", "isCorrect": true, "reason": "PDF states: 'In 1665, British Robert Hooke published Micrographia, with drawings of many tiny objects, from parts of plants to insect eyes and legs – first used the term \"cell\"'" },
+        { "text": "Discovering bacteria and classifying them into four groups", "isCorrect": false, "reason": "Bacteria classification was done by Ferdinand Cohn in the 1870s; Hooke observed larger structures like plant cells and insects" },
+        { "text": "Developing the first staining techniques for microscopic tissue examination", "isCorrect": false, "reason": "Staining techniques were developed later; Hooke relied on natural contrast and careful illumination" }
+      ],
+      "explanation": "Terminological legacy: Hooke's term 'cell' (inspired by the small rooms monks lived in) became the fundamental unit of biological organization. His Micrographia not only introduced this terminology but also demonstrated microscopy's potential for revealing hidden structures—from plant anatomy to insect morphology. The book's detailed engravings made microscopic discoveries accessible to a broad scientific audience."
+    },
+    {
+      "question": "Marcello Malpighi (1628–1694) is known as the 'Founder of microscopical anatomy, histology, and Father of physiology and embryology' because he:",
+      "options": [
+        { "text": "Discovered capillaries completing Harvey's circulation theory and identified microscopic structures in kidneys, spleen, and other organs", "isCorrect": true, "reason": "PDF states Malpighi 'identified capillaries between the tiny arteries and veins which complete the circulation' and lists 'Malpighian (Renal) corpuscles and Malpighian pyramids of the kidney,' 'Malpighian corpuscles or Malpighian bodies of the spleen,' and 'Malpighian tubule system of insects' as structures named after him" },
+        { "text": "Invented the first practical microscope for clinical diagnosis", "isCorrect": false, "reason": "Microscopes existed before Malpighi; his contribution was applying them to anatomical discovery, not instrument invention" },
+        { "text": "Discovered bacteria as the cause of infectious diseases", "isCorrect": false, "reason": "Germ theory emerged in the 19th century; Malpighi observed microscopic structures but didn't connect them to disease causation" },
+        { "text": "Developed the first electron microscope for subcellular imaging", "isCorrect": false, "reason": "Electron microscopes are 20th-century technology; Malpighi worked with light microscopy" }
+      ],
+      "explanation": "Anatomical legacy: Malpighi's discoveries established that organs have microscopic structures with specific functions—laying groundwork for histology (tissue study). Structures named after him (Malpighian corpuscles in kidney and spleen) reflect his systematic exploration of organ microanatomy. His work bridged Harvey's macroscopic circulation theory and later cellular biology."
+    },
+    {
+      "question": "Ferdinand Cohn (1828–1898) advanced microbiology by:",
+      "options": [
+        { "text": "Discovering the first antibiotic (penicillin) from mold cultures", "isCorrect": false, "reason": "Penicillin was discovered by Alexander Fleming in 1928; Cohn worked earlier on bacterial classification" },
+        { "text": "Classifying bacteria into four groups—spheres, rods, threads, and spirals—in the 1870s", "isCorrect": true, "reason": "PDF states: 'In the 1870s, German biologist Ferdinand Cohn classified bacteria into the four groups—spheres, rods, threads, and spirals'" },
+        { "text": "Proving germ theory by linking specific bacteria to specific diseases", "isCorrect": false, "reason": "Germ theory proof was primarily Robert Koch's work (1876–1882); Cohn focused on classification, not disease causation" },
+        { "text": "Inventing the first electron microscope for bacterial imaging", "isCorrect": false, "reason": "Electron microscopes were invented in the 1930s; Cohn worked with light microscopy" }
+      ],
+      "explanation": "Taxonomic foundation: Cohn's bacterial classification system (cocci/spheres, bacilli/rods, filaments/threads, spirilla/spirals) provided the organizational framework that enabled later germ theory development. By systematically categorizing bacteria based on shape and structure, he made the microbial world comprehensible—demonstrating how taxonomy enables scientific progress by creating order from complexity."
+    }
+  ]
+}

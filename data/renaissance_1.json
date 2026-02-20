@@ -1,0 +1,156 @@
+{
+  "week": "W5",
+  "title": "Renaissance: The Rise of Scientific Medicine-I",
+  "questions": [
+    {
+      "question": "The European 'Dark Ages' of medicine (following the collapse of the Western Roman Empire around 476 CE) were characterized primarily by:",
+      "options": [
+        { "text": "Advanced surgical techniques and systematic anatomical knowledge", "isCorrect": false, "reason": "Surgical and anatomical knowledge declined during the Dark Ages; these advances came later during the Renaissance" },
+        { "text": "Medical practices based on religious beliefs, folk tradition, and superstition with limited anatomical knowledge, anesthetics, and antisepsis", "isCorrect": true, "reason": "PDF states: 'Medical practices based on: Religious beliefs, Folk tradition, Superstition' with 'limitation on: Anatomical knowledge, Anesthetics (alcohol, opium), Antisepsis'" },
+        { "text": "Widespread adoption of germ theory and microbial disease causation", "isCorrect": false, "reason": "Germ theory wasn't established until the 19th century; Dark Ages medicine predated microbiological understanding by over a millennium" },
+        { "text": "Universal healthcare systems providing free medical care to all citizens", "isCorrect": false, "reason": "Universal healthcare is a modern concept; medieval medicine was fragmented and often inaccessible to common people" }
+      ],
+      "explanation": "Historical context: The collapse of Roman infrastructure (aqueducts, public baths, organized medical practice) led to medical regression in Europe. While Islamic medicine flourished during this period, European medicine relied heavily on religious interpretations of disease and traditional remedies without systematic anatomical or physiological understanding."
+    },
+    {
+      "question": "The Schola Medica Salernitana in Salerno, southwest Italy, is historically significant because it:",
+      "options": [
+        { "text": "Was the first generally recognized European school of medicine that became famous throughout Europe by the early 900s", "isCorrect": true, "reason": "PDF states: 'The first generally recognized European school of medicine was the Schola Medica Salernitana in Salerno' and 'By the early 900s the Salerno medical school had become famous throughout Europe'" },
+        { "text": "Exclusively taught surgery without any theoretical medical education", "isCorrect": false, "reason": "Salerno offered comprehensive training including hygiene, ethics, gynecology, obstetrics, and general practice—not just surgery" },
+        { "text": "Prohibited human dissection and relied solely on animal anatomy", "isCorrect": false, "reason": "PDF states 'human dissection was introduced at the school in 1250' after initially using only animals" },
+        { "text": "Rejected all Arabic medical knowledge as heretical", "isCorrect": false, "reason": "Salerno actively translated and incorporated Arabic medical texts; it served as a gateway for Islamic medical knowledge entering Europe" }
+      ],
+      "explanation": "Bridge function: Salerno represented the crucial bridge between Islamic Golden Age medicine and European Renaissance. Its location in southern Italy (near Monte Cassino monastery and with access to Arabic texts via Sicily) made it uniquely positioned to synthesize Greek, Roman, and Islamic medical knowledge for European audiences."
+    },
+    {
+      "question": "Alfanus I, Archbishop of Salerno (1057–1087), contributed to European medicine by:",
+      "options": [
+        { "text": "Discovering the circulation of blood through vivisection experiments", "isCorrect": false, "reason": "Blood circulation was discovered by William Harvey in 1628; Alfanus worked 500+ years earlier" },
+        { "text": "Working as a multilingual physician who established the Salerno school and translated many Arabic medical texts", "isCorrect": true, "reason": "PDF states: 'As a multilingual physician, Alfanus I, worked to establish the school and translated many of the Arabic texts'" },
+        { "text": "Performing the first documented human dissection in Europe", "isCorrect": false, "reason": "Human dissection at Salerno began in 1250, long after Alfanus' time; he focused on translation and school establishment" },
+        { "text": "Authoring the first European pharmacopeia listing medicinal plants", "isCorrect": false, "reason": "While Salerno produced medical texts, the PDF doesn't attribute a specific pharmacopeia to Alfanus" }
+      ],
+      "explanation": "Translation movement: Alfanus exemplifies the medieval translation movement that preserved and transmitted classical knowledge. Arabic scholars had preserved Greek texts (Hippocrates, Galen) lost to Europe, and figures like Alfanus facilitated their return—demonstrating how knowledge can flow across cultural boundaries despite political/religious differences."
+    },
+    {
+      "question": "Constantine the African's primary contribution to European medicine was:",
+      "options": [
+        { "text": "Discovering pulmonary circulation 350 years before William Harvey", "isCorrect": false, "reason": "Pulmonary circulation was discovered by Ibn al-Nafis; Constantine was a translator, not an anatomist" },
+        { "text": "Producing lengthy translations of Arabic medical texts that became important in European medical libraries for the next five centuries", "isCorrect": true, "reason": "PDF states: 'Constantine the African produced many lengthy translations that became important in medical libraries around Europe for the next five centuries'" },
+        { "text": "Establishing the first military hospital in Europe", "isCorrect": false, "reason": "Military hospitals were a Roman innovation; Constantine focused on translation work" },
+        { "text": "Developing the first standardized surgical instruments", "isCorrect": false, "reason": "Surgical instruments existed since antiquity; Constantine's work was textual/translation-based" }
+      ],
+      "explanation": "Cultural transmission: Constantine represents the critical role of translators in scientific progress. Without figures willing to bridge linguistic/cultural divides, knowledge remains isolated. His translations ensured that Islamic medical advances (pharmacology, surgery, hospital organization) influenced European medicine for 500 years—laying groundwork for the Renaissance."
+    },
+    {
+      "question": "Andreas Vesalius (1514–1564) is considered the founder of modern scientific anatomy primarily because he:",
+      "options": [
+        { "text": "Relied on personal observations and investigations rather than accepting Galen's pronouncements without question", "isCorrect": true, "reason": "PDF emphasizes: 'The approach of relying on personal observations and investigations' and states Galen's pronouncements 'had been questioned' by Vesalius in the early 16th century" },
+        { "text": "Discovered germ theory and microbial disease causation", "isCorrect": false, "reason": "Germ theory emerged in the 19th century; Vesalius worked within pre-microbiological frameworks" },
+        { "text": "Invented the microscope and used it to study cellular structure", "isCorrect": false, "reason": "Microscopes weren't invented until the 17th century (Leeuwenhoek); Vesalius worked with naked-eye dissection" },
+        { "text": "Developed the first vaccines against smallpox and measles", "isCorrect": false, "reason": "Vaccines were developed in the 18th–19th centuries; Vesalius focused on anatomy, not immunology" }
+      ],
+      "explanation": "Methodological revolution: Vesalius' true innovation was methodological—insisting on direct observation over textual authority. This empirical approach, though seemingly obvious today, represented a radical break from medieval scholasticism that privileged ancient texts over personal experience. His willingness to challenge Galen (whose errors persisted for 1,300 years) established the foundation for modern scientific inquiry."
+    },
+    {
+      "question": "Vesalius' 1543 masterpiece 'De Humani Corporis Fabrica' (On the Fabric of the Human Body) was revolutionary because it:",
+      "options": [
+        { "text": "Introduced the concept of vaccination against infectious diseases", "isCorrect": false, "reason": "Vaccination was developed centuries later; Fabrica focused on anatomy, not immunology" },
+        { "text": "Included detailed, accurate illustrations of male and female anatomy based on actual human dissections", "isCorrect": true, "reason": "PDF states Fabrica was 'the first major anatomical work' that 'includes the detailed illustrations of male and female anatomy' and that 'Vesalius built up a collection of executed illustrations that were faithful to the specimens'" },
+        { "text": "Described the circulation of blood through the heart and lungs", "isCorrect": false, "reason": "Blood circulation was described by William Harvey in 1628; Vesalius noted the absence of septal pores but didn't describe circulation" },
+        { "text": "Established germ theory as the foundation of modern medicine", "isCorrect": false, "reason": "Germ theory emerged in the 19th century; Fabrica was purely anatomical" }
+      ],
+      "explanation": "Visual revolution: Fabrica's detailed illustrations (likely by artists from Titian's workshop) transformed anatomical education. For the first time, students could study accurate human anatomy without access to cadavers. The book's artistic quality also reflected Renaissance humanism—celebrating the human body as a worthy subject of scientific and aesthetic inquiry."
+    },
+    {
+      "question": "Which of the following anatomical corrections did Vesalius make to Galen's previously accepted errors?",
+      "options": [
+        { "text": "The lower jaw (mandible) is a single bone, not two as Galen claimed based on dog anatomy", "isCorrect": true, "reason": "PDF explicitly states: 'the lower jaw or mandible is a single bone, not two (an error derived from dog anatomy)'" },
+        { "text": "The brain has four ventricles instead of the three Galen described", "isCorrect": false, "reason": "Vesalius confirmed three ventricles; four-ventricle theory was medieval, not Galenic" },
+        { "text": "The heart has five chambers instead of Galen's four", "isCorrect": false, "reason": "Vesalius confirmed four chambers; Galen also described four chambers (though with incorrect function)" },
+        { "text": "The liver produces insulin to regulate blood sugar", "isCorrect": false, "reason": "Insulin wasn't discovered until 1921; neither Galen nor Vesalius understood endocrine function" }
+      ],
+      "explanation": "Comparative anatomy limitation: Galen's errors stemmed from dissecting animals (dogs, monkeys, pigs) rather than humans. The mandible difference exemplifies how anatomical variations between species can lead to persistent misconceptions when direct human observation is prohibited—highlighting why Vesalius' human dissections were so crucial."
+    },
+    {
+      "question": "The 'Basel Skeleton' is historically significant because it:",
+      "options": [
+        { "text": "Represents the oldest articulated human skeleton in Europe, created when Vesalius was invited to perform a public autopsy in Basel", "isCorrect": true, "reason": "PDF states: 'Vesalius was invited to carry out an autopsy in public in Basel. The skeleton remains reside at the University of Basel's Museum of Anatomy' and describes it as 'The oldest articulated human skeleton in Europe'" },
+        { "text": "Was discovered in an Egyptian tomb and dates to 3,000 BCE", "isCorrect": false, "reason": "The Basel Skeleton is European and from the Renaissance period, not ancient Egyptian" },
+        { "text": "Contains the first documented evidence of trepanning surgery", "isCorrect": false, "reason": "Trepanning evidence dates to prehistoric times (10,000 BCE); the Basel Skeleton is significant for being articulated, not for surgical evidence" },
+        { "text": "Was used by Galen to develop his theories of human anatomy", "isCorrect": false, "reason": "Galen worked in the 2nd century CE and dissected animals, not this skeleton which dates to Vesalius' time (16th century)" }
+      ],
+      "explanation": "Public demonstration significance: Public autopsies represented a crucial shift toward transparent, observable science. By performing dissections openly (rather than relying on textual authority), Vesalius democratized anatomical knowledge—allowing students and physicians to verify findings themselves rather than accepting claims on faith."
+    },
+    {
+      "question": "Gabriele Falloppio (1523–1562) is remembered in medical history primarily for:",
+      "options": [
+        { "text": "Discovering the circulation of blood", "isCorrect": false, "reason": "Blood circulation was discovered by William Harvey; Falloppio focused on anatomy" },
+        { "text": "Describing the eardrum and cochlea, studying reproductive organs, and identifying the 'fallopian tube'", "isCorrect": true, "reason": "PDF states: 'Falloppio described eardrum and cochlea, studied reproductive organs and identified \"fallopian tube\"'" },
+        { "text": "Developing the first successful vaccine against smallpox", "isCorrect": false, "reason": "Smallpox vaccine was developed by Edward Jenner in 1796; Falloppio worked in the 16th century" },
+        { "text": "Inventing the microscope for cellular observation", "isCorrect": false, "reason": "Microscopes were invented in the 17th century; Falloppio worked with naked-eye dissection" }
+      ],
+      "explanation": "Eponymous legacy: Falloppio exemplifies how anatomical discoveries become immortalized through eponyms (terms named after discoverers). The fallopian tube remains a standard anatomical term—demonstrating how Renaissance anatomists' meticulous observations created enduring scientific nomenclature still used today."
+    },
+    {
+      "question": "Bartolomeo Eustachius (1524–1574) contributed to anatomy by:",
+      "options": [
+        { "text": "Discovering pulmonary circulation", "isCorrect": false, "reason": "Pulmonary circulation was discovered by Ibn al-Nafis and later William Harvey" },
+        { "text": "Describing the 'eustachian tube' and completing his own epic anatomy work 'Tabulae Anatomicae' (Anatomical Engravings)", "isCorrect": true, "reason": "PDF states: 'Eustachius described \"eustachian tube\" and completed his own epic anatomy work Tabulae Anatomicae (Anatomical Engravings)'" },
+        { "text": "Performing the first successful human heart transplant", "isCorrect": false, "reason": "Heart transplants weren't performed until the 20th century; Eustachius focused on descriptive anatomy" },
+        { "text": "Developing germ theory and identifying bacteria as disease-causing agents", "isCorrect": false, "reason": "Germ theory emerged in the 19th century; Eustachius worked within pre-microbiological frameworks" }
+      ],
+      "explanation": "Independent discovery: Eustachius worked contemporaneously with Vesalius but independently produced his own anatomical engravings. This parallel development illustrates how Renaissance intellectual conditions (printing press, humanist emphasis on observation, reduced Church restrictions) enabled multiple anatomists to make similar advances simultaneously—accelerating scientific progress."
+    },
+    {
+      "question": "In medieval Europe (11th–12th centuries), barber-surgeons performed all of the following medical procedures EXCEPT:",
+      "options": [
+        { "text": "Removal of warts and skin scars", "isCorrect": false, "reason": "PDF explicitly lists this as a barber-surgeon procedure" },
+        { "text": "Tooth extractions", "isCorrect": false, "reason": "PDF explicitly lists this as a barber-surgeon procedure" },
+        { "text": "Bloodletting by leech application", "isCorrect": false, "reason": "PDF explicitly lists this as a barber-surgeon procedure" },
+        { "text": "Open-heart surgery to repair cardiac valves", "isCorrect": true, "reason": "Open-heart surgery requires modern technology (cardiopulmonary bypass, antibiotics); barber-surgeons performed only superficial procedures like wound treatment, amputations, and bloodletting" }
+      ],
+      "explanation": "Technical limitations: Barber-surgeons' toolkit (sharp blades, hot irons, basic instruments) limited them to external procedures. Internal surgery was virtually impossible without anesthesia (beyond alcohol/opium) and antisepsis understanding. Their practical skills—despite theoretical limitations—laid groundwork for modern surgery by developing techniques for wound management, amputation, and hemorrhage control."
+    },
+    {
+      "question": "Ambroise Paré (1510–1590) revolutionized surgical practice primarily by:",
+      "options": [
+        { "text": "Discovering antibiotics and introducing aseptic technique", "isCorrect": false, "reason": "Antibiotics emerged in the 20th century; Paré worked centuries earlier without microbiological knowledge" },
+        { "text": "Replacing cauterization with boiling oil by using wound balms and ligatures to stop bleeding", "isCorrect": true, "reason": "PDF states the traditional treatment was 'to cauterize and seal them with boiling oil or red-hot irons' but 'Paré used ligatures—strings or threads tied around the stump or vessel to stop blood loss' and 'mixed a potion of egg yolks, rose oil, and distilled resin'" },
+        { "text": "Developing the first successful vaccine against smallpox", "isCorrect": false, "reason": "Smallpox vaccine was developed by Edward Jenner in 1796; Paré focused on surgical technique, not immunology" },
+        { "text": "Inventing the microscope for surgical magnification", "isCorrect": false, "reason": "Microscopes weren't invented until the 17th century; Paré worked with naked-eye surgery" }
+      ],
+      "explanation": "Humanitarian innovation: Paré's famous quote—'I dressed him, God healed him'—reflects his humble, patient-centered approach. His switch from torturous cauterization to gentle ligatures and balms represented not just technical improvement but ethical advancement—prioritizing patient comfort alongside efficacy. This exemplifies Renaissance humanism's influence on medicine."
+    },
+    {
+      "question": "The traditional treatment for open wounds before Ambroise Paré's innovations involved:",
+      "options": [
+        { "text": "Applying antibiotic ointments and sterile bandages", "isCorrect": false, "reason": "Antibiotics and sterile technique emerged centuries later; Renaissance medicine lacked microbiological understanding" },
+        { "text": "Cauterizing and sealing wounds with boiling oil or red-hot irons to reduce complications like gangrene", "isCorrect": true, "reason": "PDF explicitly states: 'The traditional treatment for open wounds was to cauterize and seal them with boiling oil or red-hot irons, which reduced complications such as gangrene'" },
+        { "text": "Suturing with catgut and applying antiseptic solutions", "isCorrect": false, "reason": "While suturing existed, antiseptic solutions weren't developed until the 19th century (Lister)" },
+        { "text": "Administering intravenous antibiotics and performing debridement", "isCorrect": false, "reason": "IV therapy and systematic debridement are modern techniques; Renaissance surgery lacked both technology and microbiological understanding" }
+      ],
+      "explanation": "Rationale behind brutality: Boiling oil cauterization, though torturous, had logical (if incorrect) reasoning—sealing wounds prevented air entry (believed to cause infection) and controlled bleeding. Without understanding bacteria, physicians correctly observed that sealed wounds sometimes healed better than open ones, but attributed this to wrong mechanisms. Paré's gentler methods worked better despite lacking theoretical justification."
+    },
+    {
+      "question": "Ambroise Paré's contributions to prosthetics included designing and making:",
+      "options": [
+        { "text": "More than 50 kinds of false body parts including working hands, artificial arms, legs, feet, eyes, and tooth implants based on true anatomy", "isCorrect": true, "reason": "PDF states: 'Paré designed more than 50 kinds of false body parts, including this working hand' and 'Paré designed and made a series of limb prostheses—artificial arms, legs, hands, and feet—as well as artificial eyes and tooth implants. The mechanics were inventive and based on true anatomy'" },
+        { "text": "Electronic prosthetics controlled by neural signals", "isCorrect": false, "reason": "Electronic/neural prosthetics are 20th–21st century innovations; Paré worked with mechanical designs" },
+        { "text": "3D-printed biocompatible prosthetics using synthetic polymers", "isCorrect": false, "reason": "3D printing and synthetic materials are modern technologies; Paré used wood, metal, and natural materials" },
+        { "text": "Prosthetic hearts and artificial organs for transplantation", "isCorrect": false, "reason": "Artificial organs and transplantation are modern innovations; Paré focused on external prosthetics for limbs and sensory organs" }
+      ],
+      "explanation": "Anatomical foundation: Paré's prosthetic designs succeeded because they were 'based on true anatomy'—demonstrating how Renaissance anatomical advances (Vesalius, Falloppio, Eustachius) enabled practical applications. His working hand design, with articulated fingers and realistic appearance, represented a remarkable fusion of artistic craftsmanship and medical knowledge centuries before modern prosthetics."
+    },
+    {
+      "question": "The Renaissance period in European medicine (beginning in the 13th century) was characterized by all of the following developments EXCEPT:",
+      "options": [
+        { "text": "Vesalius' anatomical revolution challenging Galen's authority", "isCorrect": false, "reason": "PDF explicitly lists 'The anatomy of Vesalius' as a Renaissance development" },
+        { "text": "Harvey's description of blood circulation", "isCorrect": false, "reason": "PDF explicitly lists 'Harvey's description of circulation' as a Renaissance development" },
+        { "text": "The assimilation of the microscope into medicine", "isCorrect": false, "reason": "PDF explicitly lists 'The assimilation of the microscope into medicine' as a Renaissance development" },
+        { "text": "The immediate and universal adoption of germ theory across all European medical schools", "isCorrect": true, "reason": "Germ theory wasn't established until the 19th century; Renaissance medicine remained pre-microbiological despite advances in anatomy, circulation, and instrumentation" }
+      ],
+      "explanation": "Historical boundaries: The Renaissance laid crucial groundwork (anatomy, circulation, instrumentation) but remained constrained by pre-scientific paradigms. Microscopes were assimilated but their full potential (cellular biology, microbiology) wasn't realized until centuries later. This illustrates how technological innovations can precede theoretical understanding—tools exist before their revolutionary applications are discovered."
+    }
+  ]
+}
